@@ -9,8 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
-     xmlns:ontology="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##"
-     xmlns:intelligent_tourism_ontology="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl#">
+     xmlns:ontology="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##">
     <owl:Ontology rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl#">
         <dc:created>&quot;2025-04-27&quot;^^xsd:date</dc:created>
         <dc:creator>Pablo Vázquez Rodríguez</dc:creator>

@@ -1,7 +1,7 @@
 
 abstract=
 ontologyTitle=Recommendations and intelligent tourism ontology
-ontologyPrefix=[Ontology NS Prefix]
+ontologyPrefix=intelligent_tourism_ontology
 ontologyNamespaceURI=https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl#
 ontologyName=Recommendations and intelligent tourism ontology
 thisVersionURI=null
