@@ -1,0 +1,1792 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology" ],
+    "title" : {
+      "undefined" : "Recommendations and intelligent tourism ontology"
+    },
+    "iri" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl",
+    "author" : [ "Pablo Vázquez Rodríguez" ],
+    "description" : {
+      "undefined" : "In this ontology we model the domain of intelligent tourism, gathering information from different sources like events, hotels, attractions and restaurants in main touristic cities. The main goal is to provide recommendation systems that provide travelers useful informacion from a semantic structure able to combine geo data along user review values, events or activities."
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Pablo Vázquez Rodríguez",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "\"2025-04-27\"^^xsd:date",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "Recommendations and intelligent tourism ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "19",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "87",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Restaurant",
+      "undefined" : "Restaurant"
+    },
+    "subClasses" : [ "8", "9", "10", "11", "12" ],
+    "comment" : {
+      "undefined" : "Dinning service facilities"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mediterranean",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mediterranean",
+      "undefined" : "Mediterranean Restaurant"
+    },
+    "comment" : {
+      "undefined" : "Restaurant serving mediterranean food"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Museum",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Museum",
+      "undefined" : "Museum"
+    },
+    "comment" : {
+      "undefined" : "Type of attraction displaying collections of artifacts, historical items, etc."
+    },
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Tram",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tram",
+      "undefined" : "Tram"
+    },
+    "comment" : {
+      "undefined" : "Type of service transport using tram"
+    },
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Cultural",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cultural",
+      "undefined" : "Cultural Event"
+    },
+    "comment" : {
+      "undefined" : "Event highlighting cultural traditions, art, etc."
+    },
+    "attributes" : [ "external" ],
+    "id" : "44",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/BeachHotel",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BeachHotel",
+      "undefined" : "Beach Hotel"
+    },
+    "comment" : {
+      "undefined" : "Accommodation near a beach with related services"
+    },
+    "attributes" : [ "external" ],
+    "id" : "50",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Beach",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Beach",
+      "undefined" : "Beach Attraction"
+    },
+    "comment" : {
+      "undefined" : "Type of attraction by the sea and/or near the beach"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Rural",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rural",
+      "undefined" : "Rural Hotel"
+    },
+    "comment" : {
+      "undefined" : "Accommodation located in a rural area for visitors that seek a tranquil environment"
+    },
+    "attributes" : [ "external" ],
+    "id" : "59",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/CulturalAttraction",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalAttraction",
+      "undefined" : "Cultural Attraction"
+    },
+    "comment" : {
+      "undefined" : "Type of attraction providing access to the culture of the region"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TourismItem",
+      "undefined" : "Tourism Item"
+    },
+    "subClasses" : [ "30", "22", "33", "25", "6" ],
+    "comment" : {
+      "undefined" : "Any place, amenity or service with some touristic appealing"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Monument",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Monument",
+      "undefined" : "Monument"
+    },
+    "comment" : {
+      "undefined" : "Type of attraction highlighting landmarks, historical events, etc."
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Technology",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Technology",
+      "undefined" : "Technology Event"
+    },
+    "comment" : {
+      "undefined" : "Type of event focusing on technology related activities"
+    },
+    "attributes" : [ "external" ],
+    "id" : "58",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "City",
+      "undefined" : "City"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Madrid",
+      "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "https://dbpedia.org/page/Madrid",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "City of Spain that it is also its capital"
+      },
+      "labels" : {
+        "IRI-based" : "City_Madrid",
+        "undefined" : "Madrid"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Pamplona",
+      "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "https://dbpedia.org/page/Pamplona",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "City of Navarra, at the north of Spain"
+      },
+      "labels" : {
+        "IRI-based" : "Pamplona",
+        "undefined" : "Pamplona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza",
+      "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "https://dbpedia.org/page/Zaragoza",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "Zaragoza is a city on the north of Spain"
+      },
+      "labels" : {
+        "IRI-based" : "City_Zaragoza",
+        "undefined" : "Zaragoza"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bilbao",
+      "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "https://dbpedia.org/page/Bilbao",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "Bilbao is a city of the north of Spain located in the País Vasco"
+      },
+      "labels" : {
+        "IRI-based" : "Bilbao",
+        "undefined" : "Bilbao"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Geographic location where tourism resources are situated"
+    },
+    "attributes" : [ "external" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hotel",
+      "undefined" : "Hotel"
+    },
+    "subClasses" : [ "70", "71", "50", "72", "59", "73" ],
+    "comment" : {
+      "undefined" : "Place of accomodation for tourists"
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hotel_bargain",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "hotel_bargain",
+      "undefined" : "Bargain Accommodation"
+    },
+    "comment" : {
+      "undefined" : "Hotels with medium to low prices and very good reviews"
+    },
+    "attributes" : [ "external" ],
+    "id" : "70",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Attraction",
+      "undefined" : "Attraction"
+    },
+    "subClasses" : [ "1", "84", "14", "2", "16", "17" ],
+    "comment" : {
+      "undefined" : "Represents a place of interest for tourists, such as museums, parks, cultural attractions, etc."
+    },
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Japanese",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Japanese",
+      "undefined" : "Japanese Restaurant"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant_DeliciaZaragoza_Japanese",
+      "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+      "comment" : {
+        "undefined" : "Japanese restaurant located in the city of Zaragoza"
+      },
+      "labels" : {
+        "IRI-based" : "Restaurant_DeliciaZaragoza_Japanese",
+        "undefined" : "Delicia Zaragoza Japanese"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Restaurant serving japanese food"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mexican",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mexican",
+      "undefined" : "Mexican Restaurant"
+    },
+    "comment" : {
+      "undefined" : "Restaurant serving mexican food"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "19",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Italian",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Italian",
+      "undefined" : "Italian Restaurant"
+    },
+    "comment" : {
+      "undefined" : "Restaurant serving italian food"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "90",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "100",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "22", "33", "6" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "102",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "5",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "33", "25", "6" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Sports",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sports",
+      "undefined" : "Sports Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event_Zaragoza_Sports_Congress",
+      "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+      "comment" : {
+        "undefined" : "Sports Congress happening in Zaragoza"
+      },
+      "labels" : {
+        "IRI-based" : "Event_Zaragoza_Sports_Congress",
+        "undefined" : "Zaragoza Sports Congress"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Type of event focusing on sports activities and competitions"
+    },
+    "attributes" : [ "external" ],
+    "id" : "104",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Touristic",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Touristic",
+      "undefined" : "Touristic Hotel"
+    },
+    "comment" : {
+      "undefined" : "Accommodation for leisure travelers seeking comfort and convenience"
+    },
+    "attributes" : [ "external" ],
+    "id" : "72",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Gastronomy",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gastronomy",
+      "undefined" : "Gastronomy Event"
+    },
+    "comment" : {
+      "undefined" : "Event for food tasting and gastronomic culture in general"
+    },
+    "attributes" : [ "external" ],
+    "id" : "66",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Luxury",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Luxury",
+      "undefined" : "Luxury Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Palace_Zaragoza_Luxury",
+      "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+      "comment" : {
+        "undefined" : "Luxury hotel in the city of Zaragoza"
+      },
+      "labels" : {
+        "IRI-based" : "Hotel_Palace_Zaragoza_Luxury",
+        "undefined" : "Hotel Palace Zaragoza Luxury"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Accommodation offering premium services and amenities"
+    },
+    "attributes" : [ "external" ],
+    "id" : "73",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/HighlyRatedAttraction",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HighlyRatedAttraction",
+      "undefined" : "Highly Rated Attraction"
+    },
+    "comment" : {
+      "undefined" : "Attractions with a rating of more than 3.0 points"
+    },
+    "attributes" : [ "external" ],
+    "id" : "84",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Subway",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Subway",
+      "undefined" : "Subway"
+    },
+    "comment" : {
+      "undefined" : "Type of service transport using subway"
+    },
+    "attributes" : [ "external" ],
+    "id" : "40",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event",
+      "undefined" : "Event"
+    },
+    "subClasses" : [ "104", "44", "58", "64", "66" ],
+    "comment" : {
+      "undefined" : "Activities or shows of some interest for tourists"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/PublicBycicle",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PublicBycicle",
+      "undefined" : "Public Bycicle"
+    },
+    "comment" : {
+      "undefined" : "Type of transport service using public bycicles"
+    },
+    "attributes" : [ "external" ],
+    "id" : "36",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Park",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Park",
+      "undefined" : "Park"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction_CastilloZaragoza_Park",
+      "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+      "comment" : {
+        "undefined" : "Park of the Castle of Zaragoza"
+      },
+      "labels" : {
+        "IRI-based" : "Attraction_CastilloZaragoza_Park",
+        "undefined" : "Zaragoza Castle Park"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Type of attraction for outdoors recreation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Music",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Music",
+      "undefined" : "Music Event"
+    },
+    "comment" : {
+      "undefined" : "Type of event focusing on musical activities such as concerts of festivals"
+    },
+    "attributes" : [ "external" ],
+    "id" : "64",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bus",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bus",
+      "undefined" : "Bus"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport_Bus_Zaragoza_UrbanZaragoza",
+      "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+      "labels" : {
+        "IRI-based" : "Transport_Bus_Zaragoza_UrbanZaragoza",
+        "undefined" : "Urban Zaragoza Bus"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Type of transport service using bus"
+    },
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Business",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Business",
+      "undefined" : "Business Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Sol_Bilbao_Business",
+      "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+      "comment" : {
+        "undefined" : "Business hotel located in Bilbao"
+      },
+      "labels" : {
+        "IRI-based" : "Hotel_Sol_Bilbao_Business",
+        "undefined" : "Hotel Sol Bilbao Business"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Business oriented accommodation with services as meeting rooms, etc"
+    },
+    "attributes" : [ "external" ],
+    "id" : "71",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transport",
+      "undefined" : "Transport"
+    },
+    "subClasses" : [ "36", "38", "40", "27", "43" ],
+    "comment" : {
+      "undefined" : "Transportation options in a given place"
+    },
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Taxi",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Taxi",
+      "undefined" : "Taxi"
+    },
+    "comment" : {
+      "undefined" : "Type of service transport using taxi"
+    },
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Andalusian",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Andalusian",
+      "undefined" : "Andalusian Restaurant"
+    },
+    "comment" : {
+      "undefined" : "Restaurant serving andalusian food"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "6" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "3",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "15",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "24",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "26",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "28",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "29",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "31",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "32",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "34",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "49",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "51",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "52",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "53",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "54",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "55",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "56",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "62",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "68",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "69",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "74",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "75",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "77",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "78",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "79",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "80",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "81",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "82",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "83",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "85",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "86",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "92",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "93",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "94",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "95",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "96",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "97",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "98",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "105",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "106",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "107",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "108",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "109",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "110",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "112",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "113",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "114",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "115",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "123",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "124",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "125",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "126",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "127",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "128",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "129",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "130",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "131",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "132",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasPrice",
+      "undefined" : "hasPrice"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Indicates the price associated with the service (e.g price per night, meal, ticket, ...)"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "3"
+  }, {
+    "range" : "14",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "range" : "17",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "19",
+    "subproperty" : [ "20", "21" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "18"
+  }, {
+    "range" : "1",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "25",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "2",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "14",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "25",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "6",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "range" : "25",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "6",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "range" : "25",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "25",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "25",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "25",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "25",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "hasStars",
+      "undefined" : "hasStars"
+    },
+    "domain" : "33",
+    "comment" : {
+      "undefined" : "Indicates the number of stars an acommodation has"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "45"
+  }, {
+    "range" : "25",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "6",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "range" : "33",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "25",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "6",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "33",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "30",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "range" : "48",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "range" : "30",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "30",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "60"
+  }, {
+    "range" : "33",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "range" : "30",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
+  }, {
+    "range" : "30",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "range" : "30",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "43",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "43",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "27",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
+    "range" : "43",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "range" : "40",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "locatedIn",
+      "undefined" : "locatedIn"
+    },
+    "superproperty" : [ "18" ],
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Indicates where the tourism \"item\" is located (e.g. restaurantX locatedIn Madrid)"
+    },
+    "attributes" : [ "object", "functional", "external", "asymmetric" ],
+    "id" : "20"
+  }, {
+    "range" : "40",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "76"
+  }, {
+    "range" : "27",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "72",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "59",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "79"
+  }, {
+    "range" : "36",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "72",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "range" : "72",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "range" : "59",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "range" : "73",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "hasRating",
+      "undefined" : "hasRating"
+    },
+    "cardinality" : "1",
+    "domain" : "87",
+    "comment" : {
+      "undefined" : "Indicates the average rating for the service"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "19",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "89"
+  }, {
+    "range" : "73",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "range" : "71",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "range" : "72",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "93"
+  }, {
+    "range" : "59",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "94"
+  }, {
+    "range" : "2",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "95"
+  }, {
+    "range" : "17",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "96"
+  }, {
+    "range" : "17",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "range" : "17",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "98"
+  }, {
+    "range" : "6",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/runBy",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "range" : "100",
+    "label" : {
+      "IRI-based" : "runBy",
+      "undefined" : "runBy"
+    },
+    "domain" : "25",
+    "comment" : {
+      "undefined" : "Indicates the company that runs the service"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "101"
+  }, {
+    "range" : "58",
+    "domain" : "104",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "103"
+  }, {
+    "range" : "58",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "105"
+  }, {
+    "range" : "104",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "range" : "58",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
+  }, {
+    "range" : "104",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "108"
+  }, {
+    "range" : "58",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "range" : "104",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/offersEvent",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "offersEvent",
+      "undefined" : "offersEvent"
+    },
+    "superproperty" : [ "18" ],
+    "domain" : "48",
+    "comment" : {
+      "undefined" : "Connects a city to events held there"
+    },
+    "attributes" : [ "object", "external", "asymmetric" ],
+    "id" : "21"
+  }, {
+    "range" : "64",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "111"
+  }, {
+    "range" : "27",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "112"
+  }, {
+    "range" : "27",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "113"
+  }, {
+    "range" : "64",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "114"
+  }, {
+    "range" : "66",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "115"
+  }, {
+    "range" : "22",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "116"
+  }, {
+    "range" : "22",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "117"
+  }, {
+    "range" : "30",
+    "domain" : "104",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "118"
+  }, {
+    "range" : "22",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "119"
+  }, {
+    "range" : "22",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "120"
+  }, {
+    "range" : "22",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "range" : "22",
+    "domain" : "84",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "122"
+  }, {
+    "range" : "10",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "123"
+  }, {
+    "range" : "11",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "124"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "125"
+  }, {
+    "range" : "10",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "126"
+  }, {
+    "range" : "11",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "range" : "10",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "128"
+  }, {
+    "range" : "11",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "129"
+  }, {
+    "range" : "11",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "130"
+  }, {
+    "range" : "8",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "131"
+  }, {
+    "range" : "9",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "132"
+  }, {
+    "range" : "33",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "range" : "33",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "range" : "33",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "135"
+  }, {
+    "range" : "33",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/happensIn",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "happensIn",
+      "undefined" : "happensIn"
+    },
+    "domain" : "30",
+    "comment" : {
+      "undefined" : "Date when an event takes place"
+    },
+    "attributes" : [ "functional", "external", "datatype" ],
+    "id" : "137"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "range" : "7",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "139"
+  }, {
+    "range" : "33",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "140"
+  }, {
+    "range" : "33",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
+  }, {
+    "range" : "7",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "142"
+  }, {
+    "range" : "7",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "143"
+  }, {
+    "range" : "7",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "6",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
+  }, {
+    "range" : "6",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "146"
+  }, {
+    "range" : "6",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/recommendedRestaurantForEvent",
+    "baseIri" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "recommendedRestaurantForEvent",
+      "undefined" : "recommendedRestaurantForEvent"
+    },
+    "domain" : "30",
+    "comment" : {
+      "undefined" : "Recommended restaurant for people that attends some event"
+    },
+    "attributes" : [ "object", "external", "asymmetric" ],
+    "id" : "148"
+  }, {
+    "range" : "6",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  } ]
+}

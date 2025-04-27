@@ -1,0 +1,1190 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/"
+     xml:base="http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:ontology="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#"
+     xmlns:intelligent_tourism_ontology="http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology#">
+    <owl:Ontology rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl">
+        <dc:created>&quot;2025-04-27&quot;^^xsd:date</dc:created>
+        <dc:creator>Pablo Vázquez Rodríguez</dc:creator>
+        <dc:description>In this ontology we model the domain of intelligent tourism, gathering information from different sources like events, hotels, attractions and restaurants in main touristic cities. The main goal is to provide recommendation systems that provide travelers useful informacion from a semantic structure able to combine geo data along user review values, events or activities.</dc:description>
+        <dc:license>https://creativecommons.org/licenses/by/4.0/</dc:license>
+        <dc:title>Recommendations and intelligent tourism ontology</dc:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/created"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#sameAs -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#sameAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#locatedIn -->
+
+    <owl:ObjectProperty rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#locatedIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#TourismItem"/>
+        <rdfs:range rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City"/>
+        <rdfs:comment>Indicates where the tourism &quot;item&quot; is located (e.g. restaurantX locatedIn Madrid)</rdfs:comment>
+        <rdfs:label>locatedIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#offersEvent -->
+
+    <owl:ObjectProperty rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#offersEvent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City"/>
+        <rdfs:range rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Event"/>
+        <rdfs:comment>Connects a city to events held there</rdfs:comment>
+        <rdfs:label>offersEvent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#recommendedRestaurantForEvent -->
+
+    <owl:ObjectProperty rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#recommendedRestaurantForEvent">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Event"/>
+        <rdfs:range rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Restaurant"/>
+        <rdfs:comment>Recommended restaurant for people that attends some event</rdfs:comment>
+        <rdfs:label>recommendedRestaurantForEvent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#happensIn -->
+
+    <owl:DatatypeProperty rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#happensIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>Date when an event takes place</rdfs:comment>
+        <rdfs:label>happensIn</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#hasPrice -->
+
+    <owl:DatatypeProperty rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#hasPrice">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Hotel"/>
+                    <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Restaurant"/>
+                    <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Transport"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>Indicates the price associated with the service (e.g price per night, meal, ticket, ...)</rdfs:comment>
+        <rdfs:label>hasPrice</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#hasRating -->
+
+    <owl:DatatypeProperty rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#hasRating">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Attraction"/>
+                    <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Hotel"/>
+                    <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Restaurant"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>Indicates the average rating for the service</rdfs:comment>
+        <rdfs:label>hasRating</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#hasStars -->
+
+    <owl:DatatypeProperty rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#hasStars">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Hotel"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>Indicates the number of stars an acommodation has</rdfs:comment>
+        <rdfs:label>hasStars</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#runBy -->
+
+    <owl:DatatypeProperty rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#runBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Transport"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Indicates the company that runs the service</rdfs:comment>
+        <rdfs:label>runBy</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Andalusian -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Andalusian">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Restaurant"/>
+        <rdfs:comment>Restaurant serving andalusian food</rdfs:comment>
+        <rdfs:label>Andalusian Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Attraction -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Attraction">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#TourismItem"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#hasRating"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:onDataRange>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Represents a place of interest for tourists, such as museums, parks, cultural attractions, etc.</rdfs:comment>
+        <rdfs:label>Attraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Beach -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Beach">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Attraction"/>
+        <rdfs:comment>Type of attraction by the sea and/or near the beach</rdfs:comment>
+        <rdfs:label>Beach Attraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#BeachHotel -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#BeachHotel">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Hotel"/>
+        <rdfs:comment>Accommodation near a beach with related services</rdfs:comment>
+        <rdfs:label>Beach Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Bus -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Bus">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Transport"/>
+        <rdfs:comment>Type of transport service using bus</rdfs:comment>
+        <rdfs:label>Bus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Business -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Business">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Hotel"/>
+        <rdfs:comment>Business oriented accommodation with services as meeting rooms, etc</rdfs:comment>
+        <rdfs:label>Business Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City">
+        <rdfs:comment>Geographic location where tourism resources are situated</rdfs:comment>
+        <rdfs:label>City</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Cultural -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Cultural">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Event"/>
+        <rdfs:comment>Event highlighting cultural traditions, art, etc.</rdfs:comment>
+        <rdfs:label>Cultural Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#CulturalAttraction -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#CulturalAttraction">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Attraction"/>
+        <rdfs:comment>Type of attraction providing access to the culture of the region</rdfs:comment>
+        <rdfs:label>Cultural Attraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Event -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Event">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#TourismItem"/>
+        <rdfs:comment>Activities or shows of some interest for tourists</rdfs:comment>
+        <rdfs:label>Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Gastronomy -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Gastronomy">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Event"/>
+        <rdfs:comment>Event for food tasting and gastronomic culture in general</rdfs:comment>
+        <rdfs:label>Gastronomy Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#HighlyRatedAttraction -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#HighlyRatedAttraction">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Attraction"/>
+        <rdfs:comment>Attractions with a rating of more than 3.0 points</rdfs:comment>
+        <rdfs:label>Highly Rated Attraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Hotel -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Hotel">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#TourismItem"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#hasRating"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:onDataRange>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Place of accomodation for tourists</rdfs:comment>
+        <rdfs:label>Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Italian -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Italian">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Restaurant"/>
+        <rdfs:comment>Restaurant serving italian food</rdfs:comment>
+        <rdfs:label>Italian Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Japanese -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Japanese">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Restaurant"/>
+        <rdfs:comment>Restaurant serving japanese food</rdfs:comment>
+        <rdfs:label>Japanese Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Luxury -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Luxury">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Hotel"/>
+        <rdfs:comment>Accommodation offering premium services and amenities</rdfs:comment>
+        <rdfs:label>Luxury Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Mediterranean -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Mediterranean">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Restaurant"/>
+        <rdfs:comment>Restaurant serving mediterranean food</rdfs:comment>
+        <rdfs:label>Mediterranean Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Mexican -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Mexican">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Restaurant"/>
+        <rdfs:comment>Restaurant serving mexican food</rdfs:comment>
+        <rdfs:label>Mexican Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Monument -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Monument">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Attraction"/>
+        <rdfs:comment>Type of attraction highlighting landmarks, historical events, etc.</rdfs:comment>
+        <rdfs:label>Monument</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Museum -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Museum">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Attraction"/>
+        <rdfs:comment>Type of attraction displaying collections of artifacts, historical items, etc.</rdfs:comment>
+        <rdfs:label>Museum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Music -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Music">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Event"/>
+        <rdfs:comment>Type of event focusing on musical activities such as concerts of festivals</rdfs:comment>
+        <rdfs:label>Music Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Park -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Park">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Attraction"/>
+        <rdfs:comment>Type of attraction for outdoors recreation</rdfs:comment>
+        <rdfs:label>Park</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#PublicBycicle -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#PublicBycicle">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Transport"/>
+        <rdfs:comment>Type of transport service using public bycicles</rdfs:comment>
+        <rdfs:label>Public Bycicle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Restaurant -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Restaurant">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#TourismItem"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#hasRating"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:onDataRange>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Dinning service facilities</rdfs:comment>
+        <rdfs:label>Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Rural -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Rural">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Hotel"/>
+        <rdfs:comment>Accommodation located in a rural area for visitors that seek a tranquil environment</rdfs:comment>
+        <rdfs:label>Rural Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Sports -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Sports">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Event"/>
+        <rdfs:comment>Type of event focusing on sports activities and competitions</rdfs:comment>
+        <rdfs:label>Sports Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Subway -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Subway">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Transport"/>
+        <rdfs:comment>Type of service transport using subway</rdfs:comment>
+        <rdfs:label>Subway</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Taxi -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Taxi">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Transport"/>
+        <rdfs:comment>Type of service transport using taxi</rdfs:comment>
+        <rdfs:label>Taxi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Technology -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Technology">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Event"/>
+        <rdfs:comment>Type of event focusing on technology related activities</rdfs:comment>
+        <rdfs:label>Technology Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#TourismItem -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#TourismItem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#locatedIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Any place, amenity or service with some touristic appealing</rdfs:comment>
+        <rdfs:label>Tourism Item</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Touristic -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Touristic">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Hotel"/>
+        <rdfs:comment>Accommodation for leisure travelers seeking comfort and convenience</rdfs:comment>
+        <rdfs:label>Touristic Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Tram -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Tram">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Transport"/>
+        <rdfs:comment>Type of service transport using tram</rdfs:comment>
+        <rdfs:label>Tram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Transport -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Transport">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#TourismItem"/>
+        <rdfs:comment>Transportation options in a given place</rdfs:comment>
+        <rdfs:label>Transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#hotel_bargain -->
+
+    <owl:Class rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#hotel_bargain">
+        <rdfs:subClassOf rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Hotel"/>
+        <rdfs:comment>Hotels with medium to low prices and very good reviews</rdfs:comment>
+        <rdfs:label>Bargain Accommodation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Attraction_CastilloZaragoza_Park -->
+
+    <owl:NamedIndividual rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Attraction_CastilloZaragoza_Park">
+        <rdf:type rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Park"/>
+        <ontology:locatedIn rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City_Zaragoza"/>
+        <ontology:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</ontology:hasRating>
+        <rdfs:comment>Park of the Castle of Zaragoza</rdfs:comment>
+        <rdfs:label>Zaragoza Castle Park</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Bilbao -->
+
+    <owl:NamedIndividual rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Bilbao">
+        <rdf:type rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City"/>
+        <rdfs:comment>Bilbao is a city of the north of Spain located in the País Vasco</rdfs:comment>
+        <rdfs:label>Bilbao</rdfs:label>
+        <owl:sameAs>https://dbpedia.org/page/Bilbao</owl:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City_Madrid -->
+
+    <owl:NamedIndividual rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City_Madrid">
+        <rdf:type rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City"/>
+        <rdfs:comment>City of Spain that it is also its capital</rdfs:comment>
+        <rdfs:label>Madrid</rdfs:label>
+        <owl:sameAs>https://dbpedia.org/page/Madrid</owl:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City_Zaragoza -->
+
+    <owl:NamedIndividual rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City_Zaragoza">
+        <rdf:type rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City"/>
+        <rdfs:comment>Zaragoza is a city on the north of Spain</rdfs:comment>
+        <rdfs:label>Zaragoza</rdfs:label>
+        <owl:sameAs>https://dbpedia.org/page/Zaragoza</owl:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Event_Zaragoza_Sports_Congress -->
+
+    <owl:NamedIndividual rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Event_Zaragoza_Sports_Congress">
+        <rdf:type rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Sports"/>
+        <ontology:locatedIn rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City_Zaragoza"/>
+        <ontology:happensIn rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-07-19T00:00:00+01:00</ontology:happensIn>
+        <rdfs:comment>Sports Congress happening in Zaragoza</rdfs:comment>
+        <rdfs:label>Zaragoza Sports Congress</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Hotel_Palace_Zaragoza_Luxury -->
+
+    <owl:NamedIndividual rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Hotel_Palace_Zaragoza_Luxury">
+        <rdf:type rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Luxury"/>
+        <ontology:locatedIn rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City_Zaragoza"/>
+        <ontology:hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120.00</ontology:hasPrice>
+        <ontology:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</ontology:hasRating>
+        <ontology:hasStars rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ontology:hasStars>
+        <rdfs:comment>Luxury hotel in the city of Zaragoza</rdfs:comment>
+        <rdfs:label>Hotel Palace Zaragoza Luxury</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Hotel_Sol_Bilbao_Business -->
+
+    <owl:NamedIndividual rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Hotel_Sol_Bilbao_Business">
+        <rdf:type rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Business"/>
+        <ontology:locatedIn rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Bilbao"/>
+        <ontology:hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">56.00</ontology:hasPrice>
+        <ontology:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.9</ontology:hasRating>
+        <ontology:hasStars rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ontology:hasStars>
+        <rdfs:comment>Business hotel located in Bilbao</rdfs:comment>
+        <rdfs:label>Hotel Sol Bilbao Business</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Pamplona -->
+
+    <owl:NamedIndividual rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Pamplona">
+        <rdf:type rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City"/>
+        <rdfs:comment>City of Navarra, at the north of Spain</rdfs:comment>
+        <rdfs:label>Pamplona</rdfs:label>
+        <owl:sameAs>https://dbpedia.org/page/Pamplona</owl:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Restaurant_DeliciaZaragoza_Japanese -->
+
+    <owl:NamedIndividual rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Restaurant_DeliciaZaragoza_Japanese">
+        <rdf:type rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Japanese"/>
+        <ontology:locatedIn rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City_Zaragoza"/>
+        <ontology:hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">77.0</ontology:hasPrice>
+        <ontology:hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.1</ontology:hasRating>
+        <rdfs:comment>Japanese restaurant located in the city of Zaragoza</rdfs:comment>
+        <rdfs:label>Delicia Zaragoza Japanese</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Transport_Bus_Zaragoza_UrbanZaragoza -->
+
+    <owl:NamedIndividual rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Transport_Bus_Zaragoza_UrbanZaragoza">
+        <rdf:type rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Bus"/>
+        <ontology:locatedIn rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City_Zaragoza"/>
+        <ontology:hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.00</ontology:hasPrice>
+        <ontology:runBy>Urban Zaragoza</ontology:runBy>
+        <rdfs:label>Urban Zaragoza Bus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Andalusian"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Italian"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Japanese"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Mediterranean"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Mexican"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Attraction"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#City"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Event"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Hotel"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Restaurant"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Transport"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Beach"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Business"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Luxury"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Rural"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Touristic"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Beach"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#CulturalAttraction"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Monument"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Museum"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Park"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Bus"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#PublicBycicle"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Subway"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Taxi"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Tram"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Cultural"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Gastronomy"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Music"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Sports"/>
+            <rdf:Description rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Technology"/>
+        </owl:members>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="urn:swrl:var#r">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#a">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#e">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#rt">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#c">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#h">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#p">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#s">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                        <swrl:arguments>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:resource="urn:swrl:var#r"/>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </swrl:arguments>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Attraction"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#a"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#hasRating"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#a"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#r"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#HighlyRatedAttraction"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#a"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Restaurant"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#r"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Event"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#e"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="urn:swrl:var#rt"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#hasRating"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl:var#r"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl:var#rt"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#locatedIn"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl:var#e"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl:var#c"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#locatedIn"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl:var#r"/>
+                                                                <swrl:argument2 rdf:resource="urn:swrl:var#c"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#recommendedRestaurantForEvent"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#e"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#r"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#hasRating"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#r"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#hasPrice"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#p"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#Hotel"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual"/>
+                                                <swrl:arguments>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:resource="urn:swrl:var#s"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </swrl:arguments>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                                        <swrl:arguments>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:resource="urn:swrl:var#p"/>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</rdf:first>
+                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </swrl:arguments>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#hasStars"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                                                                <swrl:argument2 rdf:resource="urn:swrl:var#s"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                                                        <swrl:arguments>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                <rdf:first rdf:resource="urn:swrl:var#r"/>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</rdf:first>
+                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                            </rdf:Description>
+                                                                        </swrl:arguments>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#hotel_bargain"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
