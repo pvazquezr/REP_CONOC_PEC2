@@ -3,11 +3,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport"
     } ]
   } ]
 }, {
@@ -17,7 +17,7 @@
     "@id" : "urn:swrl:var#h"
   } ],
   "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel"
   } ]
 }, {
   "@id" : "_:genid105",
@@ -29,7 +29,7 @@
     "@id" : "urn:swrl:var#p"
   } ],
   "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice"
   } ]
 }, {
   "@id" : "_:genid107",
@@ -41,7 +41,7 @@
     "@id" : "urn:swrl:var#r"
   } ],
   "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating"
   } ]
 }, {
   "@id" : "_:genid109",
@@ -50,7 +50,7 @@
     "@id" : "urn:swrl:var#h"
   } ],
   "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hotel_bargain"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hotel_bargain"
   } ]
 }, {
   "@id" : "_:genid11",
@@ -77,6 +77,15 @@
   } ]
 }, {
   "@id" : "_:genid112",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction"
+  } ]
+}, {
+  "@id" : "_:genid114",
   "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "urn:swrl:var#a"
@@ -85,16 +94,7 @@
     "@id" : "urn:swrl:var#r"
   } ],
   "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating"
-  } ]
-}, {
-  "@id" : "_:genid114",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "urn:swrl:var#a"
-  } ],
-  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating"
   } ]
 }, {
   "@id" : "_:genid116",
@@ -117,7 +117,7 @@
     "@id" : "urn:swrl:var#a"
   } ],
   "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/HighlyRatedAttraction"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##HighlyRatedAttraction"
   } ]
 }, {
   "@id" : "_:genid13",
@@ -132,7 +132,7 @@
     "@id" : "_:genid15"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -170,7 +170,7 @@
     "@id" : "_:genid21"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -208,7 +208,7 @@
     "@id" : "_:genid27"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -243,10 +243,10 @@
   "@id" : "_:genid32",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -257,15 +257,15 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Andalusian"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Andalusian"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Italian"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Italian"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Japanese"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Japanese"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mediterranean"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mediterranean"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mexican"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mexican"
     } ]
   } ]
 }, {
@@ -273,17 +273,17 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport"
     } ]
   } ]
 }, {
@@ -291,15 +291,15 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Beach"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Beach"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Business"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Business"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Luxury"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Luxury"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Rural"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Rural"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Touristic"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Touristic"
     } ]
   } ]
 }, {
@@ -307,11 +307,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant"
     } ]
   } ]
 }, {
@@ -319,15 +319,15 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Beach"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Beach"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/CulturalAttraction"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##CulturalAttraction"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Monument"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Monument"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Museum"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Museum"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Park"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Park"
     } ]
   } ]
 }, {
@@ -335,15 +335,15 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bus"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bus"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/PublicBycicle"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##PublicBycicle"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Subway"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Subway"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Taxi"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Taxi"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Tram"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Tram"
     } ]
   } ]
 }, {
@@ -351,15 +351,15 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Cultural"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Cultural"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Gastronomy"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Gastronomy"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Music"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Music"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Sports"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Sports"
     }, {
-      "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Technology"
+      "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Technology"
     } ]
   } ]
 }, {
@@ -371,7 +371,7 @@
     }, {
       "@id" : "_:genid82"
     }, {
-      "@id" : "_:genid78"
+      "@id" : "_:genid80"
     }, {
       "@id" : "_:genid76"
     }, {
@@ -387,15 +387,15 @@
   } ]
 }, {
   "@id" : "_:genid72",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "urn:swrl:var#r"
   } ],
   "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "urn:swrl:var#c"
+    "@id" : "urn:swrl:var#rt"
   } ],
   "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating"
   } ]
 }, {
   "@id" : "_:genid74",
@@ -407,22 +407,10 @@
     "@id" : "urn:swrl:var#c"
   } ],
   "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn"
   } ]
 }, {
   "@id" : "_:genid76",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "urn:swrl:var#r"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "urn:swrl:var#rt"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating"
-  } ]
-}, {
-  "@id" : "_:genid78",
   "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
   "http://www.w3.org/2003/11/swrl#arguments" : [ {
     "@list" : [ {
@@ -436,22 +424,34 @@
     "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
   } ]
 }, {
-  "@id" : "_:genid82",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "urn:swrl:var#e"
-  } ],
-  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event"
-  } ]
-}, {
-  "@id" : "_:genid84",
+  "@id" : "_:genid80",
   "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "urn:swrl:var#r"
   } ],
   "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant"
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn"
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event"
   } ]
 }, {
   "@id" : "_:genid86",
@@ -463,7 +463,7 @@
     "@id" : "urn:swrl:var#r"
   } ],
   "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/recommendedRestaurantForEvent"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##recommendedRestaurantForEvent"
   } ]
 }, {
   "@id" : "_:genid87",
@@ -527,7 +527,7 @@
     "@id" : "urn:swrl:var#s"
   } ],
   "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars"
   } ]
 }, {
   "@id" : "_:genid95",
@@ -573,7 +573,37 @@
   "@id" : "http://purl.org/dc/elements/1.1/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Andalusian",
+  "@id" : "http://www.w3.org/2002/07/owl#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThanOrEqual",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#lessThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/created" : [ {
+    "@value" : "\"2025-04-27\"^^xsd:date"
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Pablo Vázquez Rodríguez"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "In this ontology we model the domain of intelligent tourism, gathering information from different sources like events, hotels, attractions and restaurants in main touristic cities. The main goal is to provide recommendation systems that provide travelers useful informacion from a semantic structure able to combine geo data along user review values, events or activities."
+  } ],
+  "http://purl.org/dc/elements/1.1/license" : [ {
+    "@value" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "Recommendations and intelligent tourism ontology"
+  } ]
+}, {
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Andalusian",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Restaurant serving andalusian food"
@@ -582,10 +612,10 @@
     "@value" : "Andalusian Restaurant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Represents a place of interest for tourists, such as museums, parks, cultural attractions, etc."
@@ -594,31 +624,31 @@
     "@value" : "Attraction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem"
   }, {
     "@id" : "_:genid14"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction_CastilloZaragoza_Park",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction_CastilloZaragoza_Park",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "@value" : "3.5"
-  } ],
-  "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza"
-  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Park"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Park"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Park of the Castle of Zaragoza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Zaragoza Castle Park"
+  } ],
+  "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.5"
+  } ],
+  "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn" : [ {
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Beach",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Beach",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Type of attraction by the sea and/or near the beach"
@@ -627,10 +657,10 @@
     "@value" : "Beach Attraction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/BeachHotel",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##BeachHotel",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Accommodation near a beach with related services"
@@ -639,13 +669,13 @@
     "@value" : "Beach Hotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bilbao",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bilbao",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Bilbao is a city of the north of Spain located in the País Vasco"
@@ -657,7 +687,7 @@
     "@value" : "https://dbpedia.org/page/Bilbao"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bus",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Type of transport service using bus"
@@ -666,10 +696,10 @@
     "@value" : "Bus"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Business",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Business",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Business oriented accommodation with services as meeting rooms, etc"
@@ -678,10 +708,10 @@
     "@value" : "Business Hotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Geographic location where tourism resources are situated"
@@ -690,10 +720,10 @@
     "@value" : "City"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Madrid",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Madrid",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "City of Spain that it is also its capital"
@@ -705,10 +735,10 @@
     "@value" : "https://dbpedia.org/page/Madrid"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Zaragoza is a city on the north of Spain"
@@ -720,7 +750,7 @@
     "@value" : "https://dbpedia.org/page/Zaragoza"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Cultural",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Cultural",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Event highlighting cultural traditions, art, etc."
@@ -729,10 +759,10 @@
     "@value" : "Cultural Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/CulturalAttraction",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##CulturalAttraction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Type of attraction providing access to the culture of the region"
@@ -741,10 +771,10 @@
     "@value" : "Cultural Attraction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Activities or shows of some interest for tourists"
@@ -753,29 +783,29 @@
     "@value" : "Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event_Zaragoza_Sports_Congress",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event_Zaragoza_Sports_Congress",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/happensIn" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "@value" : "2024-07-19T00:00:00+01:00"
-  } ],
-  "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza"
-  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Sports"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Sports"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Sports Congress happening in Zaragoza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Zaragoza Sports Congress"
+  } ],
+  "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##happensIn" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2024-07-19T00:00:00+01:00"
+  } ],
+  "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn" : [ {
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Gastronomy",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Gastronomy",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Event for food tasting and gastronomic culture in general"
@@ -784,10 +814,10 @@
     "@value" : "Gastronomy Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/HighlyRatedAttraction",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##HighlyRatedAttraction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Attractions with a rating of more than 3.0 points"
@@ -796,10 +826,10 @@
     "@value" : "Highly Rated Attraction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Place of accomodation for tourists"
@@ -808,66 +838,66 @@
     "@value" : "Hotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem"
   }, {
     "@id" : "_:genid20"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Palace_Zaragoza_Luxury",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Palace_Zaragoza_Luxury",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "@value" : "120.00"
-  } ],
-  "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "@value" : "3.8"
-  } ],
-  "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "4"
-  } ],
-  "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza"
-  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Luxury"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Luxury"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Luxury hotel in the city of Zaragoza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Hotel Palace Zaragoza Luxury"
+  } ],
+  "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "120.00"
+  } ],
+  "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.8"
+  } ],
+  "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  } ],
+  "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn" : [ {
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Sol_Bilbao_Business",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Sol_Bilbao_Business",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "@value" : "56.00"
-  } ],
-  "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "@value" : "4.9"
-  } ],
-  "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "5"
-  } ],
-  "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bilbao"
-  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Business"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Business"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Business hotel located in Bilbao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Hotel Sol Bilbao Business"
+  } ],
+  "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "56.00"
+  } ],
+  "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.9"
+  } ],
+  "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn" : [ {
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bilbao"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Italian",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Italian",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Restaurant serving italian food"
@@ -876,10 +906,10 @@
     "@value" : "Italian Restaurant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Japanese",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Japanese",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Restaurant serving japanese food"
@@ -888,10 +918,10 @@
     "@value" : "Japanese Restaurant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Luxury",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Luxury",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Accommodation offering premium services and amenities"
@@ -900,10 +930,10 @@
     "@value" : "Luxury Hotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mediterranean",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mediterranean",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Restaurant serving mediterranean food"
@@ -912,10 +942,10 @@
     "@value" : "Mediterranean Restaurant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mexican",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mexican",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Restaurant serving mexican food"
@@ -924,10 +954,10 @@
     "@value" : "Mexican Restaurant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Monument",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Monument",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Type of attraction highlighting landmarks, historical events, etc."
@@ -936,10 +966,10 @@
     "@value" : "Monument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Museum",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Museum",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Type of attraction displaying collections of artifacts, historical items, etc."
@@ -948,10 +978,10 @@
     "@value" : "Museum"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Music",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Music",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Type of event focusing on musical activities such as concerts of festivals"
@@ -960,13 +990,13 @@
     "@value" : "Music Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Pamplona",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Pamplona",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "City of Navarra, at the north of Spain"
@@ -978,7 +1008,7 @@
     "@value" : "https://dbpedia.org/page/Pamplona"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Park",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Park",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Type of attraction for outdoors recreation"
@@ -987,10 +1017,10 @@
     "@value" : "Park"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/PublicBycicle",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##PublicBycicle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Type of transport service using public bycicles"
@@ -999,10 +1029,10 @@
     "@value" : "Public Bycicle"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Dinning service facilities"
@@ -1011,35 +1041,35 @@
     "@value" : "Restaurant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem"
   }, {
     "@id" : "_:genid26"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant_DeliciaZaragoza_Japanese",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant_DeliciaZaragoza_Japanese",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "@value" : "77.0"
-  } ],
-  "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "@value" : "4.1"
-  } ],
-  "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza"
-  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Japanese"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Japanese"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Japanese restaurant located in the city of Zaragoza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Delicia Zaragoza Japanese"
+  } ],
+  "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "77.0"
+  } ],
+  "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.1"
+  } ],
+  "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn" : [ {
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Rural",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Rural",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Accommodation located in a rural area for visitors that seek a tranquil environment"
@@ -1048,10 +1078,10 @@
     "@value" : "Rural Hotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Sports",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Sports",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Type of event focusing on sports activities and competitions"
@@ -1060,10 +1090,10 @@
     "@value" : "Sports Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Subway",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Subway",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Type of service transport using subway"
@@ -1072,10 +1102,10 @@
     "@value" : "Subway"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Taxi",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Taxi",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Type of service transport using taxi"
@@ -1084,10 +1114,10 @@
     "@value" : "Taxi"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Technology",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Technology",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Type of event focusing on technology related activities"
@@ -1096,10 +1126,10 @@
     "@value" : "Technology Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Any place, amenity or service with some touristic appealing"
@@ -1111,7 +1141,7 @@
     "@id" : "_:genid32"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Touristic",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Touristic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Accommodation for leisure travelers seeking comfort and convenience"
@@ -1120,10 +1150,10 @@
     "@value" : "Touristic Hotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Tram",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Tram",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Type of service transport using tram"
@@ -1132,10 +1162,10 @@
     "@value" : "Tram"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Transportation options in a given place"
@@ -1144,35 +1174,35 @@
     "@value" : "Transport"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport_Bus_Zaragoza_UrbanZaragoza",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport_Bus_Zaragoza_UrbanZaragoza",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "@value" : "8.00"
-  } ],
-  "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza"
-  } ],
-  "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/runBy" : [ {
-    "@value" : "Urban Zaragoza"
-  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bus"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bus"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Urban Zaragoza Bus"
+  } ],
+  "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "8.00"
+  } ],
+  "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn" : [ {
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza"
+  } ],
+  "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##runBy" : [ {
+    "@value" : "Urban Zaragoza"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/happensIn",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##happensIn",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Date when an event takes place"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "happensIn"
@@ -1184,7 +1214,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Indicates the price associated with the service (e.g price per night, meal, ticket, ...)"
@@ -1202,7 +1232,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Indicates the average rating for the service"
@@ -1220,13 +1250,13 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Indicates the number of stars an acommodation has"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "hasStars"
@@ -1238,7 +1268,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hotel_bargain",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hotel_bargain",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Hotels with medium to low prices and very good reviews"
@@ -1247,67 +1277,67 @@
     "@value" : "Bargain Accommodation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Indicates where the tourism \"item\" is located (e.g. restaurantX locatedIn Madrid)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "locatedIn"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/offersEvent",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##offersEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Connects a city to events held there"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "offersEvent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/recommendedRestaurantForEvent",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##recommendedRestaurantForEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Recommended restaurant for people that attends some event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "recommendedRestaurantForEvent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/runBy",
+  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##runBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Indicates the company that runs the service"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport"
+    "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "runBy"
@@ -1317,36 +1347,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
-  } ]
-}, {
-  "@id" : "http://www.w3.org/2002/07/owl#sameAs",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
-}, {
-  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThanOrEqual",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
-}, {
-  "@id" : "http://www.w3.org/2003/11/swrlb#lessThan",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
-}, {
-  "@id" : "https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://purl.org/dc/elements/1.1/created" : [ {
-    "@value" : "\"2025-04-27\"^^xsd:date"
-  } ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "Pablo Vázquez Rodríguez"
-  } ],
-  "http://purl.org/dc/elements/1.1/description" : [ {
-    "@value" : "In this ontology we model the domain of intelligent tourism, gathering information from different sources like events, hotels, attractions and restaurants in main touristic cities. The main goal is to provide recommendation systems that provide travelers useful informacion from a semantic structure able to combine geo data along user review values, events or activities."
-  } ],
-  "http://purl.org/dc/elements/1.1/license" : [ {
-    "@value" : "https://creativecommons.org/licenses/by/4.0/"
-  } ],
-  "http://purl.org/dc/elements/1.1/title" : [ {
-    "@value" : "Recommendations and intelligent tourism ontology"
   } ]
 }, {
   "@id" : "urn:swrl:var#a",

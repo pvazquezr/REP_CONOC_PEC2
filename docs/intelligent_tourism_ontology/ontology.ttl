@@ -1,17 +1,17 @@
-@prefix : <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#> .
+@prefix : <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl#> .
+@base <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl#> .
 
-<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl> rdf:type owl:Ontology ;
-                                                                <http://purl.org/dc/elements/1.1/created> "\"2025-04-27\"^^xsd:date" ;
-                                                                <http://purl.org/dc/elements/1.1/creator> "Pablo Vázquez Rodríguez" ;
-                                                                <http://purl.org/dc/elements/1.1/description> "In this ontology we model the domain of intelligent tourism, gathering information from different sources like events, hotels, attractions and restaurants in main touristic cities. The main goal is to provide recommendation systems that provide travelers useful informacion from a semantic structure able to combine geo data along user review values, events or activities." ;
-                                                                <http://purl.org/dc/elements/1.1/license> "https://creativecommons.org/licenses/by/4.0/" ;
-                                                                <http://purl.org/dc/elements/1.1/title> "Recommendations and intelligent tourism ontology" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl#> rdf:type owl:Ontology ;
+                                                                                              <http://purl.org/dc/elements/1.1/created> "\"2025-04-27\"^^xsd:date" ;
+                                                                                              <http://purl.org/dc/elements/1.1/creator> "Pablo Vázquez Rodríguez" ;
+                                                                                              <http://purl.org/dc/elements/1.1/description> "In this ontology we model the domain of intelligent tourism, gathering information from different sources like events, hotels, attractions and restaurants in main touristic cities. The main goal is to provide recommendation systems that provide travelers useful informacion from a semantic structure able to combine geo data along user review values, events or activities." ;
+                                                                                              <http://purl.org/dc/elements/1.1/license> "https://creativecommons.org/licenses/by/4.0/" ;
+                                                                                              <http://purl.org/dc/elements/1.1/title> "Recommendations and intelligent tourism ontology" .
 
 #################################################################
 #    Annotation properties
@@ -45,481 +45,481 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> rdf:type owl:ObjectProperty ;
-                                                                                                rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                                rdf:type owl:FunctionalProperty ,
-                                                                                                         owl:AsymmetricProperty ;
-                                                                                                rdfs:domain <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem> ;
-                                                                                                rdfs:range <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City> ;
-                                                                                                rdfs:comment "Indicates where the tourism \"item\" is located (e.g. restaurantX locatedIn Madrid)" ;
-                                                                                                rdfs:label "locatedIn" .
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> rdf:type owl:ObjectProperty ;
+                                                                                                       rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                                                       rdf:type owl:FunctionalProperty ,
+                                                                                                                owl:AsymmetricProperty ;
+                                                                                                       rdfs:domain <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem> ;
+                                                                                                       rdfs:range <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City> ;
+                                                                                                       rdfs:comment "Indicates where the tourism \"item\" is located (e.g. restaurantX locatedIn Madrid)" ;
+                                                                                                       rdfs:label "locatedIn" .
 
 
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/offersEvent
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/offersEvent> rdf:type owl:ObjectProperty ;
-                                                                                                  rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                                                  rdf:type owl:AsymmetricProperty ;
-                                                                                                  rdfs:domain <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City> ;
-                                                                                                  rdfs:range <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> ;
-                                                                                                  rdfs:comment "Connects a city to events held there" ;
-                                                                                                  rdfs:label "offersEvent" .
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##offersEvent
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##offersEvent> rdf:type owl:ObjectProperty ;
+                                                                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                                                         rdf:type owl:AsymmetricProperty ;
+                                                                                                         rdfs:domain <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City> ;
+                                                                                                         rdfs:range <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> ;
+                                                                                                         rdfs:comment "Connects a city to events held there" ;
+                                                                                                         rdfs:label "offersEvent" .
 
 
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/recommendedRestaurantForEvent
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/recommendedRestaurantForEvent> rdf:type owl:ObjectProperty ,
-                                                                                                                             owl:AsymmetricProperty ;
-                                                                                                                    rdfs:domain <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> ;
-                                                                                                                    rdfs:range <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> ;
-                                                                                                                    rdfs:comment "Recommended restaurant for people that attends some event" ;
-                                                                                                                    rdfs:label "recommendedRestaurantForEvent" .
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##recommendedRestaurantForEvent
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##recommendedRestaurantForEvent> rdf:type owl:ObjectProperty ,
+                                                                                                                                    owl:AsymmetricProperty ;
+                                                                                                                           rdfs:domain <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> ;
+                                                                                                                           rdfs:range <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> ;
+                                                                                                                           rdfs:comment "Recommended restaurant for people that attends some event" ;
+                                                                                                                           rdfs:label "recommendedRestaurantForEvent" .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/happensIn
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/happensIn> rdf:type owl:DatatypeProperty ;
-                                                                                                rdfs:subPropertyOf owl:topDataProperty ;
-                                                                                                rdf:type owl:FunctionalProperty ;
-                                                                                                rdfs:domain <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> ;
-                                                                                                rdfs:range xsd:dateTime ;
-                                                                                                rdfs:comment "Date when an event takes place" ;
-                                                                                                rdfs:label "happensIn" .
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##happensIn
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##happensIn> rdf:type owl:DatatypeProperty ;
+                                                                                                       rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                       rdf:type owl:FunctionalProperty ;
+                                                                                                       rdfs:domain <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> ;
+                                                                                                       rdfs:range xsd:dateTime ;
+                                                                                                       rdfs:comment "Date when an event takes place" ;
+                                                                                                       rdfs:label "happensIn" .
 
 
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice> rdf:type owl:DatatypeProperty ;
-                                                                                               rdfs:subPropertyOf owl:topDataProperty ;
-                                                                                               rdf:type owl:FunctionalProperty ;
-                                                                                               rdfs:domain [ rdf:type owl:Class ;
-                                                                                                             owl:unionOf ( <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel>
-                                                                                                                           <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant>
-                                                                                                                           <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport>
-                                                                                                                         )
-                                                                                                           ] ;
-                                                                                               rdfs:range xsd:decimal ;
-                                                                                               rdfs:comment "Indicates the price associated with the service (e.g price per night, meal, ticket, ...)" ;
-                                                                                               rdfs:label "hasPrice" .
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice> rdf:type owl:DatatypeProperty ;
+                                                                                                      rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                      rdf:type owl:FunctionalProperty ;
+                                                                                                      rdfs:domain [ rdf:type owl:Class ;
+                                                                                                                    owl:unionOf ( <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel>
+                                                                                                                                  <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant>
+                                                                                                                                  <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport>
+                                                                                                                                )
+                                                                                                                  ] ;
+                                                                                                      rdfs:range xsd:decimal ;
+                                                                                                      rdfs:comment "Indicates the price associated with the service (e.g price per night, meal, ticket, ...)" ;
+                                                                                                      rdfs:label "hasPrice" .
 
 
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> rdf:type owl:DatatypeProperty ;
-                                                                                                rdfs:subPropertyOf owl:topDataProperty ;
-                                                                                                rdf:type owl:FunctionalProperty ;
-                                                                                                rdfs:domain [ rdf:type owl:Class ;
-                                                                                                              owl:unionOf ( <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction>
-                                                                                                                            <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel>
-                                                                                                                            <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant>
-                                                                                                                          )
-                                                                                                            ] ;
-                                                                                                rdfs:range xsd:decimal ;
-                                                                                                rdfs:comment "Indicates the average rating for the service" ;
-                                                                                                rdfs:label "hasRating" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars> rdf:type owl:DatatypeProperty ;
-                                                                                               rdfs:subPropertyOf owl:topDataProperty ;
-                                                                                               rdf:type owl:FunctionalProperty ;
-                                                                                               rdfs:domain <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> ;
-                                                                                               rdfs:range [ rdf:type rdfs:Datatype ;
-                                                                                                            owl:onDatatype xsd:integer ;
-                                                                                                            owl:withRestrictions ( [ xsd:minInclusive 1
-                                                                                                                                   ]
-                                                                                                                                   [ xsd:maxInclusive 5
-                                                                                                                                   ]
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> rdf:type owl:DatatypeProperty ;
+                                                                                                       rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                       rdf:type owl:FunctionalProperty ;
+                                                                                                       rdfs:domain [ rdf:type owl:Class ;
+                                                                                                                     owl:unionOf ( <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction>
+                                                                                                                                   <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel>
+                                                                                                                                   <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant>
                                                                                                                                  )
-                                                                                                          ] ;
-                                                                                               rdfs:comment "Indicates the number of stars an acommodation has" ;
-                                                                                               rdfs:label "hasStars" .
+                                                                                                                   ] ;
+                                                                                                       rdfs:range xsd:decimal ;
+                                                                                                       rdfs:comment "Indicates the average rating for the service" ;
+                                                                                                       rdfs:label "hasRating" .
 
 
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/runBy
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/runBy> rdf:type owl:DatatypeProperty ;
-                                                                                            rdfs:subPropertyOf owl:topDataProperty ;
-                                                                                            rdf:type owl:FunctionalProperty ;
-                                                                                            rdfs:domain <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> ;
-                                                                                            rdfs:range xsd:string ;
-                                                                                            rdfs:comment "Indicates the company that runs the service" ;
-                                                                                            rdfs:label "runBy" .
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars> rdf:type owl:DatatypeProperty ;
+                                                                                                      rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                      rdf:type owl:FunctionalProperty ;
+                                                                                                      rdfs:domain <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> ;
+                                                                                                      rdfs:range [ rdf:type rdfs:Datatype ;
+                                                                                                                   owl:onDatatype xsd:integer ;
+                                                                                                                   owl:withRestrictions ( [ xsd:minInclusive 1
+                                                                                                                                          ]
+                                                                                                                                          [ xsd:maxInclusive 5
+                                                                                                                                          ]
+                                                                                                                                        )
+                                                                                                                 ] ;
+                                                                                                      rdfs:comment "Indicates the number of stars an acommodation has" ;
+                                                                                                      rdfs:label "hasStars" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##runBy
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##runBy> rdf:type owl:DatatypeProperty ;
+                                                                                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                   rdf:type owl:FunctionalProperty ;
+                                                                                                   rdfs:domain <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> ;
+                                                                                                   rdfs:range xsd:string ;
+                                                                                                   rdfs:comment "Indicates the company that runs the service" ;
+                                                                                                   rdfs:label "runBy" .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Andalusian
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Andalusian> rdf:type owl:Class ;
-                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> ;
-                                                                                                 rdfs:comment "Restaurant serving andalusian food" ;
-                                                                                                 rdfs:label "Andalusian Restaurant" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> rdf:type owl:Class ;
-                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem> ,
-                                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                                   owl:onProperty <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> ;
-                                                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                                   owl:onDataRange [ rdf:type rdfs:Datatype ;
-                                                                                                                                     owl:onDatatype xsd:decimal ;
-                                                                                                                                     owl:withRestrictions ( [ xsd:minInclusive 1.0
-                                                                                                                                                            ]
-                                                                                                                                                            [ xsd:maxInclusive 5.0
-                                                                                                                                                            ]
-                                                                                                                                                          )
-                                                                                                                                   ]
-                                                                                                                 ] ;
-                                                                                                 rdfs:comment "Represents a place of interest for tourists, such as museums, parks, cultural attractions, etc." ;
-                                                                                                 rdfs:label "Attraction" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Beach
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Beach> rdf:type owl:Class ;
-                                                                                            rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> ;
-                                                                                            rdfs:comment "Type of attraction by the sea and/or near the beach" ;
-                                                                                            rdfs:label "Beach Attraction" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/BeachHotel
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/BeachHotel> rdf:type owl:Class ;
-                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> ;
-                                                                                                 rdfs:comment "Accommodation near a beach with related services" ;
-                                                                                                 rdfs:label "Beach Hotel" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bus
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bus> rdf:type owl:Class ;
-                                                                                          rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> ;
-                                                                                          rdfs:comment "Type of transport service using bus" ;
-                                                                                          rdfs:label "Bus" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Business
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Business> rdf:type owl:Class ;
-                                                                                               rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> ;
-                                                                                               rdfs:comment "Business oriented accommodation with services as meeting rooms, etc" ;
-                                                                                               rdfs:label "Business Hotel" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City> rdf:type owl:Class ;
-                                                                                           rdfs:comment "Geographic location where tourism resources are situated" ;
-                                                                                           rdfs:label "City" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Cultural
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Cultural> rdf:type owl:Class ;
-                                                                                               rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> ;
-                                                                                               rdfs:comment "Event highlighting cultural traditions, art, etc." ;
-                                                                                               rdfs:label "Cultural Event" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/CulturalAttraction
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/CulturalAttraction> rdf:type owl:Class ;
-                                                                                                         rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> ;
-                                                                                                         rdfs:comment "Type of attraction providing access to the culture of the region" ;
-                                                                                                         rdfs:label "Cultural Attraction" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> rdf:type owl:Class ;
-                                                                                            rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem> ;
-                                                                                            rdfs:comment "Activities or shows of some interest for tourists" ;
-                                                                                            rdfs:label "Event" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Gastronomy
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Gastronomy> rdf:type owl:Class ;
-                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> ;
-                                                                                                 rdfs:comment "Event for food tasting and gastronomic culture in general" ;
-                                                                                                 rdfs:label "Gastronomy Event" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/HighlyRatedAttraction
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/HighlyRatedAttraction> rdf:type owl:Class ;
-                                                                                                            rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> ;
-                                                                                                            rdfs:comment "Attractions with a rating of more than 3.0 points" ;
-                                                                                                            rdfs:label "Highly Rated Attraction" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> rdf:type owl:Class ;
-                                                                                            rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem> ,
-                                                                                                            [ rdf:type owl:Restriction ;
-                                                                                                              owl:onProperty <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> ;
-                                                                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                              owl:onDataRange [ rdf:type rdfs:Datatype ;
-                                                                                                                                owl:onDatatype xsd:decimal ;
-                                                                                                                                owl:withRestrictions ( [ xsd:minInclusive 1.0
-                                                                                                                                                       ]
-                                                                                                                                                       [ xsd:maxInclusive 5.0
-                                                                                                                                                       ]
-                                                                                                                                                     )
-                                                                                                                              ]
-                                                                                                            ] ;
-                                                                                            rdfs:comment "Place of accomodation for tourists" ;
-                                                                                            rdfs:label "Hotel" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Italian
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Italian> rdf:type owl:Class ;
-                                                                                              rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> ;
-                                                                                              rdfs:comment "Restaurant serving italian food" ;
-                                                                                              rdfs:label "Italian Restaurant" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Japanese
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Japanese> rdf:type owl:Class ;
-                                                                                               rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> ;
-                                                                                               rdfs:comment "Restaurant serving japanese food" ;
-                                                                                               rdfs:label "Japanese Restaurant" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Luxury
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Luxury> rdf:type owl:Class ;
-                                                                                             rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> ;
-                                                                                             rdfs:comment "Accommodation offering premium services and amenities" ;
-                                                                                             rdfs:label "Luxury Hotel" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mediterranean
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mediterranean> rdf:type owl:Class ;
-                                                                                                    rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> ;
-                                                                                                    rdfs:comment "Restaurant serving mediterranean food" ;
-                                                                                                    rdfs:label "Mediterranean Restaurant" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mexican
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mexican> rdf:type owl:Class ;
-                                                                                              rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> ;
-                                                                                              rdfs:comment "Restaurant serving mexican food" ;
-                                                                                              rdfs:label "Mexican Restaurant" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Monument
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Monument> rdf:type owl:Class ;
-                                                                                               rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> ;
-                                                                                               rdfs:comment "Type of attraction highlighting landmarks, historical events, etc." ;
-                                                                                               rdfs:label "Monument" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Museum
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Museum> rdf:type owl:Class ;
-                                                                                             rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> ;
-                                                                                             rdfs:comment "Type of attraction displaying collections of artifacts, historical items, etc." ;
-                                                                                             rdfs:label "Museum" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Music
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Music> rdf:type owl:Class ;
-                                                                                            rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> ;
-                                                                                            rdfs:comment "Type of event focusing on musical activities such as concerts of festivals" ;
-                                                                                            rdfs:label "Music Event" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Park
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Park> rdf:type owl:Class ;
-                                                                                           rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> ;
-                                                                                           rdfs:comment "Type of attraction for outdoors recreation" ;
-                                                                                           rdfs:label "Park" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/PublicBycicle
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/PublicBycicle> rdf:type owl:Class ;
-                                                                                                    rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> ;
-                                                                                                    rdfs:comment "Type of transport service using public bycicles" ;
-                                                                                                    rdfs:label "Public Bycicle" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> rdf:type owl:Class ;
-                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem> ,
-                                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                                   owl:onProperty <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> ;
-                                                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                                   owl:onDataRange [ rdf:type rdfs:Datatype ;
-                                                                                                                                     owl:onDatatype xsd:decimal ;
-                                                                                                                                     owl:withRestrictions ( [ xsd:minInclusive 1.0
-                                                                                                                                                            ]
-                                                                                                                                                            [ xsd:maxInclusive 5.0
-                                                                                                                                                            ]
-                                                                                                                                                          )
-                                                                                                                                   ]
-                                                                                                                 ] ;
-                                                                                                 rdfs:comment "Dinning service facilities" ;
-                                                                                                 rdfs:label "Restaurant" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Rural
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Rural> rdf:type owl:Class ;
-                                                                                            rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> ;
-                                                                                            rdfs:comment "Accommodation located in a rural area for visitors that seek a tranquil environment" ;
-                                                                                            rdfs:label "Rural Hotel" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Sports
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Sports> rdf:type owl:Class ;
-                                                                                             rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> ;
-                                                                                             rdfs:comment "Type of event focusing on sports activities and competitions" ;
-                                                                                             rdfs:label "Sports Event" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Subway
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Subway> rdf:type owl:Class ;
-                                                                                             rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> ;
-                                                                                             rdfs:comment "Type of service transport using subway" ;
-                                                                                             rdfs:label "Subway" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Taxi
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Taxi> rdf:type owl:Class ;
-                                                                                           rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> ;
-                                                                                           rdfs:comment "Type of service transport using taxi" ;
-                                                                                           rdfs:label "Taxi" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Technology
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Technology> rdf:type owl:Class ;
-                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> ;
-                                                                                                 rdfs:comment "Type of event focusing on technology related activities" ;
-                                                                                                 rdfs:label "Technology Event" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem> rdf:type owl:Class ;
-                                                                                                  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                                    owl:onProperty <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> ;
-                                                                                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                                    owl:onClass <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City>
-                                                                                                                  ] ;
-                                                                                                  rdfs:comment "Any place, amenity or service with some touristic appealing" ;
-                                                                                                  rdfs:label "Tourism Item" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Touristic
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Touristic> rdf:type owl:Class ;
-                                                                                                rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> ;
-                                                                                                rdfs:comment "Accommodation for leisure travelers seeking comfort and convenience" ;
-                                                                                                rdfs:label "Touristic Hotel" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Tram
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Tram> rdf:type owl:Class ;
-                                                                                           rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> ;
-                                                                                           rdfs:comment "Type of service transport using tram" ;
-                                                                                           rdfs:label "Tram" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> rdf:type owl:Class ;
-                                                                                                rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem> ;
-                                                                                                rdfs:comment "Transportation options in a given place" ;
-                                                                                                rdfs:label "Transport" .
-
-
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hotel_bargain
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hotel_bargain> rdf:type owl:Class ;
-                                                                                                    rdfs:subClassOf <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> ;
-                                                                                                    rdfs:comment "Hotels with medium to low prices and very good reviews" ;
-                                                                                                    rdfs:label "Bargain Accommodation" .
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Andalusian
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Andalusian> rdf:type owl:Class ;
+                                                                                                        rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> ;
+                                                                                                        rdfs:comment "Restaurant serving andalusian food" ;
+                                                                                                        rdfs:label "Andalusian Restaurant" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> rdf:type owl:Class ;
+                                                                                                        rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem> ,
+                                                                                                                        [ rdf:type owl:Restriction ;
+                                                                                                                          owl:onProperty <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> ;
+                                                                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                          owl:onDataRange [ rdf:type rdfs:Datatype ;
+                                                                                                                                            owl:onDatatype xsd:decimal ;
+                                                                                                                                            owl:withRestrictions ( [ xsd:minInclusive 1.0
+                                                                                                                                                                   ]
+                                                                                                                                                                   [ xsd:maxInclusive 5.0
+                                                                                                                                                                   ]
+                                                                                                                                                                 )
+                                                                                                                                          ]
+                                                                                                                        ] ;
+                                                                                                        rdfs:comment "Represents a place of interest for tourists, such as museums, parks, cultural attractions, etc." ;
+                                                                                                        rdfs:label "Attraction" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Beach
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Beach> rdf:type owl:Class ;
+                                                                                                   rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> ;
+                                                                                                   rdfs:comment "Type of attraction by the sea and/or near the beach" ;
+                                                                                                   rdfs:label "Beach Attraction" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##BeachHotel
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##BeachHotel> rdf:type owl:Class ;
+                                                                                                        rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> ;
+                                                                                                        rdfs:comment "Accommodation near a beach with related services" ;
+                                                                                                        rdfs:label "Beach Hotel" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bus
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bus> rdf:type owl:Class ;
+                                                                                                 rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> ;
+                                                                                                 rdfs:comment "Type of transport service using bus" ;
+                                                                                                 rdfs:label "Bus" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Business
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Business> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> ;
+                                                                                                      rdfs:comment "Business oriented accommodation with services as meeting rooms, etc" ;
+                                                                                                      rdfs:label "Business Hotel" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City> rdf:type owl:Class ;
+                                                                                                  rdfs:comment "Geographic location where tourism resources are situated" ;
+                                                                                                  rdfs:label "City" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Cultural
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Cultural> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> ;
+                                                                                                      rdfs:comment "Event highlighting cultural traditions, art, etc." ;
+                                                                                                      rdfs:label "Cultural Event" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##CulturalAttraction
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##CulturalAttraction> rdf:type owl:Class ;
+                                                                                                                rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> ;
+                                                                                                                rdfs:comment "Type of attraction providing access to the culture of the region" ;
+                                                                                                                rdfs:label "Cultural Attraction" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> rdf:type owl:Class ;
+                                                                                                   rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem> ;
+                                                                                                   rdfs:comment "Activities or shows of some interest for tourists" ;
+                                                                                                   rdfs:label "Event" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Gastronomy
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Gastronomy> rdf:type owl:Class ;
+                                                                                                        rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> ;
+                                                                                                        rdfs:comment "Event for food tasting and gastronomic culture in general" ;
+                                                                                                        rdfs:label "Gastronomy Event" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##HighlyRatedAttraction
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##HighlyRatedAttraction> rdf:type owl:Class ;
+                                                                                                                   rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> ;
+                                                                                                                   rdfs:comment "Attractions with a rating of more than 3.0 points" ;
+                                                                                                                   rdfs:label "Highly Rated Attraction" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> rdf:type owl:Class ;
+                                                                                                   rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem> ,
+                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                     owl:onProperty <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> ;
+                                                                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                     owl:onDataRange [ rdf:type rdfs:Datatype ;
+                                                                                                                                       owl:onDatatype xsd:decimal ;
+                                                                                                                                       owl:withRestrictions ( [ xsd:minInclusive 1.0
+                                                                                                                                                              ]
+                                                                                                                                                              [ xsd:maxInclusive 5.0
+                                                                                                                                                              ]
+                                                                                                                                                            )
+                                                                                                                                     ]
+                                                                                                                   ] ;
+                                                                                                   rdfs:comment "Place of accomodation for tourists" ;
+                                                                                                   rdfs:label "Hotel" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Italian
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Italian> rdf:type owl:Class ;
+                                                                                                     rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> ;
+                                                                                                     rdfs:comment "Restaurant serving italian food" ;
+                                                                                                     rdfs:label "Italian Restaurant" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Japanese
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Japanese> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> ;
+                                                                                                      rdfs:comment "Restaurant serving japanese food" ;
+                                                                                                      rdfs:label "Japanese Restaurant" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Luxury
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Luxury> rdf:type owl:Class ;
+                                                                                                    rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> ;
+                                                                                                    rdfs:comment "Accommodation offering premium services and amenities" ;
+                                                                                                    rdfs:label "Luxury Hotel" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mediterranean
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mediterranean> rdf:type owl:Class ;
+                                                                                                           rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> ;
+                                                                                                           rdfs:comment "Restaurant serving mediterranean food" ;
+                                                                                                           rdfs:label "Mediterranean Restaurant" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mexican
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mexican> rdf:type owl:Class ;
+                                                                                                     rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> ;
+                                                                                                     rdfs:comment "Restaurant serving mexican food" ;
+                                                                                                     rdfs:label "Mexican Restaurant" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Monument
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Monument> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> ;
+                                                                                                      rdfs:comment "Type of attraction highlighting landmarks, historical events, etc." ;
+                                                                                                      rdfs:label "Monument" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Museum
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Museum> rdf:type owl:Class ;
+                                                                                                    rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> ;
+                                                                                                    rdfs:comment "Type of attraction displaying collections of artifacts, historical items, etc." ;
+                                                                                                    rdfs:label "Museum" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Music
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Music> rdf:type owl:Class ;
+                                                                                                   rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> ;
+                                                                                                   rdfs:comment "Type of event focusing on musical activities such as concerts of festivals" ;
+                                                                                                   rdfs:label "Music Event" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Park
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Park> rdf:type owl:Class ;
+                                                                                                  rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> ;
+                                                                                                  rdfs:comment "Type of attraction for outdoors recreation" ;
+                                                                                                  rdfs:label "Park" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##PublicBycicle
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##PublicBycicle> rdf:type owl:Class ;
+                                                                                                           rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> ;
+                                                                                                           rdfs:comment "Type of transport service using public bycicles" ;
+                                                                                                           rdfs:label "Public Bycicle" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> rdf:type owl:Class ;
+                                                                                                        rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem> ,
+                                                                                                                        [ rdf:type owl:Restriction ;
+                                                                                                                          owl:onProperty <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> ;
+                                                                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                          owl:onDataRange [ rdf:type rdfs:Datatype ;
+                                                                                                                                            owl:onDatatype xsd:decimal ;
+                                                                                                                                            owl:withRestrictions ( [ xsd:minInclusive 1.0
+                                                                                                                                                                   ]
+                                                                                                                                                                   [ xsd:maxInclusive 5.0
+                                                                                                                                                                   ]
+                                                                                                                                                                 )
+                                                                                                                                          ]
+                                                                                                                        ] ;
+                                                                                                        rdfs:comment "Dinning service facilities" ;
+                                                                                                        rdfs:label "Restaurant" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Rural
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Rural> rdf:type owl:Class ;
+                                                                                                   rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> ;
+                                                                                                   rdfs:comment "Accommodation located in a rural area for visitors that seek a tranquil environment" ;
+                                                                                                   rdfs:label "Rural Hotel" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Sports
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Sports> rdf:type owl:Class ;
+                                                                                                    rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> ;
+                                                                                                    rdfs:comment "Type of event focusing on sports activities and competitions" ;
+                                                                                                    rdfs:label "Sports Event" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Subway
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Subway> rdf:type owl:Class ;
+                                                                                                    rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> ;
+                                                                                                    rdfs:comment "Type of service transport using subway" ;
+                                                                                                    rdfs:label "Subway" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Taxi
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Taxi> rdf:type owl:Class ;
+                                                                                                  rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> ;
+                                                                                                  rdfs:comment "Type of service transport using taxi" ;
+                                                                                                  rdfs:label "Taxi" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Technology
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Technology> rdf:type owl:Class ;
+                                                                                                        rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> ;
+                                                                                                        rdfs:comment "Type of event focusing on technology related activities" ;
+                                                                                                        rdfs:label "Technology Event" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem> rdf:type owl:Class ;
+                                                                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                                           owl:onProperty <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> ;
+                                                                                                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                           owl:onClass <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City>
+                                                                                                                         ] ;
+                                                                                                         rdfs:comment "Any place, amenity or service with some touristic appealing" ;
+                                                                                                         rdfs:label "Tourism Item" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Touristic
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Touristic> rdf:type owl:Class ;
+                                                                                                       rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> ;
+                                                                                                       rdfs:comment "Accommodation for leisure travelers seeking comfort and convenience" ;
+                                                                                                       rdfs:label "Touristic Hotel" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Tram
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Tram> rdf:type owl:Class ;
+                                                                                                  rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> ;
+                                                                                                  rdfs:comment "Type of service transport using tram" ;
+                                                                                                  rdfs:label "Tram" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> rdf:type owl:Class ;
+                                                                                                       rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem> ;
+                                                                                                       rdfs:comment "Transportation options in a given place" ;
+                                                                                                       rdfs:label "Transport" .
+
+
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hotel_bargain
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hotel_bargain> rdf:type owl:Class ;
+                                                                                                           rdfs:subClassOf <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> ;
+                                                                                                           rdfs:comment "Hotels with medium to low prices and very good reviews" ;
+                                                                                                           rdfs:label "Bargain Accommodation" .
 
 
 #################################################################
 #    Individuals
 #################################################################
 
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction_CastilloZaragoza_Park
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction_CastilloZaragoza_Park> rdf:type owl:NamedIndividual ,
-                                                                                                                                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Park> ;
-                                                                                                                       <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza> ;
-                                                                                                                       <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> 3.5 ;
-                                                                                                                       rdfs:comment "Park of the Castle of Zaragoza" ;
-                                                                                                                       rdfs:label "Zaragoza Castle Park" .
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction_CastilloZaragoza_Park
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction_CastilloZaragoza_Park> rdf:type owl:NamedIndividual ,
+                                                                                                                                       <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Park> ;
+                                                                                                                              <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza> ;
+                                                                                                                              <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> 3.5 ;
+                                                                                                                              rdfs:comment "Park of the Castle of Zaragoza" ;
+                                                                                                                              rdfs:label "Zaragoza Castle Park" .
 
 
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bilbao
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bilbao> rdf:type owl:NamedIndividual ,
-                                                                                                      <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City> ;
-                                                                                             rdfs:comment "Bilbao is a city of the north of Spain located in the País Vasco" ;
-                                                                                             rdfs:label "Bilbao" ;
-                                                                                             owl:sameAs "https://dbpedia.org/page/Bilbao" .
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bilbao
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bilbao> rdf:type owl:NamedIndividual ,
+                                                                                                             <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City> ;
+                                                                                                    rdfs:comment "Bilbao is a city of the north of Spain located in the País Vasco" ;
+                                                                                                    rdfs:label "Bilbao" ;
+                                                                                                    owl:sameAs "https://dbpedia.org/page/Bilbao" .
 
 
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Madrid
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Madrid> rdf:type owl:NamedIndividual ,
-                                                                                                           <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City> ;
-                                                                                                  rdfs:comment "City of Spain that it is also its capital" ;
-                                                                                                  rdfs:label "Madrid" ;
-                                                                                                  owl:sameAs "https://dbpedia.org/page/Madrid" .
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Madrid
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Madrid> rdf:type owl:NamedIndividual ,
+                                                                                                                  <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City> ;
+                                                                                                         rdfs:comment "City of Spain that it is also its capital" ;
+                                                                                                         rdfs:label "Madrid" ;
+                                                                                                         owl:sameAs "https://dbpedia.org/page/Madrid" .
 
 
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza> rdf:type owl:NamedIndividual ,
-                                                                                                             <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City> ;
-                                                                                                    rdfs:comment "Zaragoza is a city on the north of Spain" ;
-                                                                                                    rdfs:label "Zaragoza" ;
-                                                                                                    owl:sameAs "https://dbpedia.org/page/Zaragoza" .
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza> rdf:type owl:NamedIndividual ,
+                                                                                                                    <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City> ;
+                                                                                                           rdfs:comment "Zaragoza is a city on the north of Spain" ;
+                                                                                                           rdfs:label "Zaragoza" ;
+                                                                                                           owl:sameAs "https://dbpedia.org/page/Zaragoza" .
 
 
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event_Zaragoza_Sports_Congress
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event_Zaragoza_Sports_Congress> rdf:type owl:NamedIndividual ,
-                                                                                                                              <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Sports> ;
-                                                                                                                     <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza> ;
-                                                                                                                     <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/happensIn> "2024-07-19T00:00:00+01:00"^^xsd:dateTime ;
-                                                                                                                     rdfs:comment "Sports Congress happening in Zaragoza" ;
-                                                                                                                     rdfs:label "Zaragoza Sports Congress" .
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event_Zaragoza_Sports_Congress
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event_Zaragoza_Sports_Congress> rdf:type owl:NamedIndividual ,
+                                                                                                                                     <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Sports> ;
+                                                                                                                            <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza> ;
+                                                                                                                            <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##happensIn> "2024-07-19T00:00:00+01:00"^^xsd:dateTime ;
+                                                                                                                            rdfs:comment "Sports Congress happening in Zaragoza" ;
+                                                                                                                            rdfs:label "Zaragoza Sports Congress" .
 
 
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Palace_Zaragoza_Luxury
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Palace_Zaragoza_Luxury> rdf:type owl:NamedIndividual ,
-                                                                                                                            <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Luxury> ;
-                                                                                                                   <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza> ;
-                                                                                                                   <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice> 120.00 ;
-                                                                                                                   <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> 3.8 ;
-                                                                                                                   <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars> 4 ;
-                                                                                                                   rdfs:comment "Luxury hotel in the city of Zaragoza" ;
-                                                                                                                   rdfs:label "Hotel Palace Zaragoza Luxury" .
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Palace_Zaragoza_Luxury
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Palace_Zaragoza_Luxury> rdf:type owl:NamedIndividual ,
+                                                                                                                                   <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Luxury> ;
+                                                                                                                          <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza> ;
+                                                                                                                          <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice> 120.00 ;
+                                                                                                                          <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> 3.8 ;
+                                                                                                                          <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars> 4 ;
+                                                                                                                          rdfs:comment "Luxury hotel in the city of Zaragoza" ;
+                                                                                                                          rdfs:label "Hotel Palace Zaragoza Luxury" .
 
 
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Sol_Bilbao_Business
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Sol_Bilbao_Business> rdf:type owl:NamedIndividual ,
-                                                                                                                         <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Business> ;
-                                                                                                                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bilbao> ;
-                                                                                                                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice> 56.00 ;
-                                                                                                                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> 4.9 ;
-                                                                                                                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars> 5 ;
-                                                                                                                rdfs:comment "Business hotel located in Bilbao" ;
-                                                                                                                rdfs:label "Hotel Sol Bilbao Business" .
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Sol_Bilbao_Business
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Sol_Bilbao_Business> rdf:type owl:NamedIndividual ,
+                                                                                                                                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Business> ;
+                                                                                                                       <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bilbao> ;
+                                                                                                                       <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice> 56.00 ;
+                                                                                                                       <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> 4.9 ;
+                                                                                                                       <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars> 5 ;
+                                                                                                                       rdfs:comment "Business hotel located in Bilbao" ;
+                                                                                                                       rdfs:label "Hotel Sol Bilbao Business" .
 
 
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Pamplona
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Pamplona> rdf:type owl:NamedIndividual ,
-                                                                                                        <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City> ;
-                                                                                               rdfs:comment "City of Navarra, at the north of Spain" ;
-                                                                                               rdfs:label "Pamplona" ;
-                                                                                               owl:sameAs "https://dbpedia.org/page/Pamplona" .
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Pamplona
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Pamplona> rdf:type owl:NamedIndividual ,
+                                                                                                               <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City> ;
+                                                                                                      rdfs:comment "City of Navarra, at the north of Spain" ;
+                                                                                                      rdfs:label "Pamplona" ;
+                                                                                                      owl:sameAs "https://dbpedia.org/page/Pamplona" .
 
 
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant_DeliciaZaragoza_Japanese
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant_DeliciaZaragoza_Japanese> rdf:type owl:NamedIndividual ,
-                                                                                                                                   <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Japanese> ;
-                                                                                                                          <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza> ;
-                                                                                                                          <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice> 77.0 ;
-                                                                                                                          <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> 4.1 ;
-                                                                                                                          rdfs:comment "Japanese restaurant located in the city of Zaragoza" ;
-                                                                                                                          rdfs:label "Delicia Zaragoza Japanese" .
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant_DeliciaZaragoza_Japanese
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant_DeliciaZaragoza_Japanese> rdf:type owl:NamedIndividual ,
+                                                                                                                                          <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Japanese> ;
+                                                                                                                                 <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza> ;
+                                                                                                                                 <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice> 77.0 ;
+                                                                                                                                 <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> 4.1 ;
+                                                                                                                                 rdfs:comment "Japanese restaurant located in the city of Zaragoza" ;
+                                                                                                                                 rdfs:label "Delicia Zaragoza Japanese" .
 
 
-###  http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport_Bus_Zaragoza_UrbanZaragoza
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport_Bus_Zaragoza_UrbanZaragoza> rdf:type owl:NamedIndividual ,
-                                                                                                                                    <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bus> ;
-                                                                                                                           <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza> ;
-                                                                                                                           <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice> 8.00 ;
-                                                                                                                           <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/runBy> "Urban Zaragoza" ;
-                                                                                                                           rdfs:label "Urban Zaragoza Bus" .
+###  https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport_Bus_Zaragoza_UrbanZaragoza
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport_Bus_Zaragoza_UrbanZaragoza> rdf:type owl:NamedIndividual ,
+                                                                                                                                           <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bus> ;
+                                                                                                                                  <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza> ;
+                                                                                                                                  <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice> 8.00 ;
+                                                                                                                                  <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##runBy> "Urban Zaragoza" ;
+                                                                                                                                  rdfs:label "Urban Zaragoza Bus" .
 
 
 #################################################################
@@ -527,62 +527,62 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 #################################################################
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Andalusian>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Italian>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Japanese>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mediterranean>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mexican>
+  owl:members ( <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Andalusian>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Italian>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Japanese>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mediterranean>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mexican>
               )
 ] .
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport>
+  owl:members ( <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport>
               )
 ] .
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Beach>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Business>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Luxury>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Rural>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Touristic>
+  owl:members ( <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Beach>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Business>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Luxury>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Rural>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Touristic>
               )
 ] .
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Beach>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/CulturalAttraction>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Monument>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Museum>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Park>
+  owl:members ( <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Beach>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##CulturalAttraction>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Monument>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Museum>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Park>
               )
 ] .
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bus>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/PublicBycicle>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Subway>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Taxi>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Tram>
+  owl:members ( <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bus>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##PublicBycicle>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Subway>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Taxi>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Tram>
               )
 ] .
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Cultural>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Gastronomy>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Music>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Sports>
-                <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Technology>
+  owl:members ( <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Cultural>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Gastronomy>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Music>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Sports>
+                <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Technology>
               )
 ] .
 
@@ -591,13 +591,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 #    Rules
 #################################################################
 
-<urn:swrl:var#r> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
 <urn:swrl:var#e> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
 
-<urn:swrl:var#rt> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#r> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
 
 <urn:swrl:var#c> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#rt> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
 
 <urn:swrl:var#h> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
 
@@ -620,15 +620,15 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                                                                                   ]
                                                      ] ;
                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a>
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#r>
                                                                 ] ;
                                                       rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#r>
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#classPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a>
                                                                            ] ;
                                                                  rdf:rest rdf:nil
                                                                ]
@@ -636,7 +636,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                          ] ;
    <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/HighlyRatedAttraction> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##HighlyRatedAttraction> ;
                                                        <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a>
                                                      ] ;
                                            rdf:rest rdf:nil
@@ -646,42 +646,42 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 [ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
    <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e>
                                                      ] ;
                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e>
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#c>
                                                                 ] ;
                                                       rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> ;
-                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
-                                                                                                                          rdf:first <urn:swrl:var#rt> ;
-                                                                                                                          rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                     rdf:first 4.0 ;
-                                                                                                                                     rdf:rest rdf:nil
-                                                                                                                                   ]
-                                                                                                                        ]
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#classPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>
                                                                            ] ;
                                                                  rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                                        <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> ;
-                                                                                        <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> ;
-                                                                                        <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#rt>
+                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first <urn:swrl:var#rt> ;
+                                                                                                                                     rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                rdf:first 4.0 ;
+                                                                                                                                                rdf:rest rdf:nil
+                                                                                                                                              ]
+                                                                                                                                   ]
                                                                                       ] ;
                                                                             rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
                                                                                        rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> ;
                                                                                                    <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> ;
                                                                                                    <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#c>
                                                                                                  ] ;
                                                                                        rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                                                  rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
-                                                                                                              <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> ;
+                                                                                                  rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                                                              <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> ;
                                                                                                               <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> ;
-                                                                                                              <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#c>
+                                                                                                              <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#rt>
                                                                                                             ] ;
                                                                                                   rdf:rest rdf:nil
                                                                                                 ]
@@ -692,7 +692,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                          ] ;
    <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/recommendedRestaurantForEvent> ;
+                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##recommendedRestaurantForEvent> ;
                                                        <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> ;
                                                        <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#r>
                                                      ] ;
@@ -703,19 +703,19 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 [ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
    <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> ;
+                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> ;
                                                        <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> ;
                                                        <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#r>
                                                      ] ;
                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice> ;
                                                                   <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> ;
                                                                   <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#p>
                                                                 ] ;
                                                       rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
                                                                  rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> ;
+                                                                             <http://www.w3.org/2003/11/swrl#classPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> ;
                                                                              <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h>
                                                                            ] ;
                                                                  rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
@@ -742,7 +742,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                                                                                  ] ;
                                                                                        rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
                                                                                                   rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                                                                              <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars> ;
+                                                                                                              <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars> ;
                                                                                                               <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> ;
                                                                                                               <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>
                                                                                                             ] ;
@@ -767,7 +767,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                          ] ;
    <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hotel_bargain> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hotel_bargain> ;
                                                        <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h>
                                                      ] ;
                                            rdf:rest rdf:nil

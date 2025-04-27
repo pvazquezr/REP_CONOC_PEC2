@@ -1,9 +1,9 @@
-<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl> <http://purl.org/dc/elements/1.1/created> "\"2025-04-27\"^^xsd:date" .
-<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl> <http://purl.org/dc/elements/1.1/creator> "Pablo Vázquez Rodríguez" .
-<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl> <http://purl.org/dc/elements/1.1/description> "In this ontology we model the domain of intelligent tourism, gathering information from different sources like events, hotels, attractions and restaurants in main touristic cities. The main goal is to provide recommendation systems that provide travelers useful informacion from a semantic structure able to combine geo data along user review values, events or activities." .
-<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl> <http://purl.org/dc/elements/1.1/license> "https://creativecommons.org/licenses/by/4.0/" .
-<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/ontology.owl> <http://purl.org/dc/elements/1.1/title> "Recommendations and intelligent tourism ontology" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl#> <http://purl.org/dc/elements/1.1/created> "\"2025-04-27\"^^xsd:date" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl#> <http://purl.org/dc/elements/1.1/creator> "Pablo Vázquez Rodríguez" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl#> <http://purl.org/dc/elements/1.1/description> "In this ontology we model the domain of intelligent tourism, gathering information from different sources like events, hotels, attractions and restaurants in main touristic cities. The main goal is to provide recommendation systems that provide travelers useful informacion from a semantic structure able to combine geo data along user review values, events or activities." .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl#> <http://purl.org/dc/elements/1.1/license> "https://creativecommons.org/licenses/by/4.0/" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl#> <http://purl.org/dc/elements/1.1/title> "Recommendations and intelligent tourism ontology" .
 # 
 # 
 # #################################################################
@@ -40,32 +40,32 @@
 # #################################################################
 # 
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates where the tourism \"item\" is located (e.g. restaurantX locatedIn Madrid)" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.w3.org/2000/01/rdf-schema#label> "locatedIn" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <http://www.w3.org/2000/01/rdf-schema#range> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates where the tourism \"item\" is located (e.g. restaurantX locatedIn Madrid)" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <http://www.w3.org/2000/01/rdf-schema#label> "locatedIn" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/offersEvent
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/offersEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/offersEvent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/offersEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/offersEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/offersEvent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/offersEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Connects a city to events held there" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/offersEvent> <http://www.w3.org/2000/01/rdf-schema#label> "offersEvent" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##offersEvent
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##offersEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##offersEvent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##offersEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##offersEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##offersEvent> <http://www.w3.org/2000/01/rdf-schema#range> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##offersEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Connects a city to events held there" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##offersEvent> <http://www.w3.org/2000/01/rdf-schema#label> "offersEvent" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/recommendedRestaurantForEvent
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/recommendedRestaurantForEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/recommendedRestaurantForEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/recommendedRestaurantForEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/recommendedRestaurantForEvent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/recommendedRestaurantForEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Recommended restaurant for people that attends some event" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/recommendedRestaurantForEvent> <http://www.w3.org/2000/01/rdf-schema#label> "recommendedRestaurantForEvent" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##recommendedRestaurantForEvent
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##recommendedRestaurantForEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##recommendedRestaurantForEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##recommendedRestaurantForEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##recommendedRestaurantForEvent> <http://www.w3.org/2000/01/rdf-schema#range> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##recommendedRestaurantForEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Recommended restaurant for people that attends some event" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##recommendedRestaurantForEvent> <http://www.w3.org/2000/01/rdf-schema#label> "recommendedRestaurantForEvent" .
 # 
 # 
 # 
@@ -76,61 +76,61 @@
 # #################################################################
 # 
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/happensIn
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/happensIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/happensIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/happensIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/happensIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/happensIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/happensIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Date when an event takes place" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/happensIn> <http://www.w3.org/2000/01/rdf-schema#label> "happensIn" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##happensIn
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##happensIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##happensIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##happensIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##happensIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##happensIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##happensIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Date when an event takes place" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##happensIn> <http://www.w3.org/2000/01/rdf-schema#label> "happensIn" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
 _:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid4 .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the price associated with the service (e.g price per night, meal, ticket, ...)" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice> <http://www.w3.org/2000/01/rdf-schema#label> "hasPrice" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the price associated with the service (e.g price per night, meal, ticket, ...)" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice> <http://www.w3.org/2000/01/rdf-schema#label> "hasPrice" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid5 .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid5 .
 _:genid5 <http://www.w3.org/2002/07/owl#unionOf> _:genid8 .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the average rating for the service" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> <http://www.w3.org/2000/01/rdf-schema#label> "hasRating" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the average rating for the service" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> <http://www.w3.org/2000/01/rdf-schema#label> "hasRating" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars> <http://www.w3.org/2000/01/rdf-schema#range> _:genid9 .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars> <http://www.w3.org/2000/01/rdf-schema#domain> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars> <http://www.w3.org/2000/01/rdf-schema#range> _:genid9 .
 _:genid9 <http://www.w3.org/2002/07/owl#withRestrictions> _:genid12 .
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
 _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
@@ -142,17 +142,17 @@ _:genid13 <http://www.w3.org/2001/XMLSchema#minInclusive> "1"^^<http://www.w3.or
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid9 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#integer> .
 _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the number of stars an acommodation has" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars> <http://www.w3.org/2000/01/rdf-schema#label> "hasStars" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the number of stars an acommodation has" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars> <http://www.w3.org/2000/01/rdf-schema#label> "hasStars" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/runBy
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/runBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/runBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/runBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/runBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/runBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/runBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the company that runs the service" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/runBy> <http://www.w3.org/2000/01/rdf-schema#label> "runBy" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##runBy
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##runBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##runBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##runBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##runBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##runBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##runBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the company that runs the service" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##runBy> <http://www.w3.org/2000/01/rdf-schema#label> "runBy" .
 # 
 # 
 # 
@@ -163,16 +163,16 @@ _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # #################################################################
 # 
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Andalusian
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Andalusian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Andalusian> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Andalusian> <http://www.w3.org/2000/01/rdf-schema#comment> "Restaurant serving andalusian food" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Andalusian> <http://www.w3.org/2000/01/rdf-schema#label> "Andalusian Restaurant" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Andalusian
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Andalusian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Andalusian> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Andalusian> <http://www.w3.org/2000/01/rdf-schema#comment> "Restaurant serving andalusian food" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Andalusian> <http://www.w3.org/2000/01/rdf-schema#label> "Andalusian Restaurant" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
 _:genid14 <http://www.w3.org/2002/07/owl#onDataRange> _:genid15 .
 _:genid15 <http://www.w3.org/2002/07/owl#withRestrictions> _:genid18 .
 _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
@@ -186,74 +186,74 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 _:genid15 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#decimal> .
 _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 _:genid14 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> .
 _:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a place of interest for tourists, such as museums, parks, cultural attractions, etc." .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> <http://www.w3.org/2000/01/rdf-schema#label> "Attraction" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a place of interest for tourists, such as museums, parks, cultural attractions, etc." .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> <http://www.w3.org/2000/01/rdf-schema#label> "Attraction" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Beach
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Beach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Beach> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Beach> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of attraction by the sea and/or near the beach" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Beach> <http://www.w3.org/2000/01/rdf-schema#label> "Beach Attraction" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Beach
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Beach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Beach> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Beach> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of attraction by the sea and/or near the beach" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Beach> <http://www.w3.org/2000/01/rdf-schema#label> "Beach Attraction" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/BeachHotel
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/BeachHotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/BeachHotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/BeachHotel> <http://www.w3.org/2000/01/rdf-schema#comment> "Accommodation near a beach with related services" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/BeachHotel> <http://www.w3.org/2000/01/rdf-schema#label> "Beach Hotel" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##BeachHotel
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##BeachHotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##BeachHotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##BeachHotel> <http://www.w3.org/2000/01/rdf-schema#comment> "Accommodation near a beach with related services" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##BeachHotel> <http://www.w3.org/2000/01/rdf-schema#label> "Beach Hotel" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bus
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bus> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of transport service using bus" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bus> <http://www.w3.org/2000/01/rdf-schema#label> "Bus" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bus
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bus> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of transport service using bus" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bus> <http://www.w3.org/2000/01/rdf-schema#label> "Bus" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Business
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Business> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Business> <http://www.w3.org/2000/01/rdf-schema#comment> "Business oriented accommodation with services as meeting rooms, etc" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Business> <http://www.w3.org/2000/01/rdf-schema#label> "Business Hotel" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Business
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Business> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Business> <http://www.w3.org/2000/01/rdf-schema#comment> "Business oriented accommodation with services as meeting rooms, etc" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Business> <http://www.w3.org/2000/01/rdf-schema#label> "Business Hotel" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City> <http://www.w3.org/2000/01/rdf-schema#comment> "Geographic location where tourism resources are situated" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "City" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City> <http://www.w3.org/2000/01/rdf-schema#comment> "Geographic location where tourism resources are situated" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City> <http://www.w3.org/2000/01/rdf-schema#label> "City" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Cultural
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Cultural> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Cultural> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Cultural> <http://www.w3.org/2000/01/rdf-schema#comment> "Event highlighting cultural traditions, art, etc." .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Cultural> <http://www.w3.org/2000/01/rdf-schema#label> "Cultural Event" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Cultural
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Cultural> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Cultural> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Cultural> <http://www.w3.org/2000/01/rdf-schema#comment> "Event highlighting cultural traditions, art, etc." .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Cultural> <http://www.w3.org/2000/01/rdf-schema#label> "Cultural Event" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/CulturalAttraction
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/CulturalAttraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/CulturalAttraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/CulturalAttraction> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of attraction providing access to the culture of the region" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/CulturalAttraction> <http://www.w3.org/2000/01/rdf-schema#label> "Cultural Attraction" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##CulturalAttraction
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##CulturalAttraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##CulturalAttraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##CulturalAttraction> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of attraction providing access to the culture of the region" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##CulturalAttraction> <http://www.w3.org/2000/01/rdf-schema#label> "Cultural Attraction" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> <http://www.w3.org/2000/01/rdf-schema#comment> "Activities or shows of some interest for tourists" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> <http://www.w3.org/2000/01/rdf-schema#comment> "Activities or shows of some interest for tourists" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Gastronomy
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Gastronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Gastronomy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Gastronomy> <http://www.w3.org/2000/01/rdf-schema#comment> "Event for food tasting and gastronomic culture in general" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Gastronomy> <http://www.w3.org/2000/01/rdf-schema#label> "Gastronomy Event" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Gastronomy
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Gastronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Gastronomy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Gastronomy> <http://www.w3.org/2000/01/rdf-schema#comment> "Event for food tasting and gastronomic culture in general" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Gastronomy> <http://www.w3.org/2000/01/rdf-schema#label> "Gastronomy Event" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/HighlyRatedAttraction
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/HighlyRatedAttraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/HighlyRatedAttraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/HighlyRatedAttraction> <http://www.w3.org/2000/01/rdf-schema#comment> "Attractions with a rating of more than 3.0 points" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/HighlyRatedAttraction> <http://www.w3.org/2000/01/rdf-schema#label> "Highly Rated Attraction" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##HighlyRatedAttraction
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##HighlyRatedAttraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##HighlyRatedAttraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##HighlyRatedAttraction> <http://www.w3.org/2000/01/rdf-schema#comment> "Attractions with a rating of more than 3.0 points" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##HighlyRatedAttraction> <http://www.w3.org/2000/01/rdf-schema#label> "Highly Rated Attraction" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
 _:genid20 <http://www.w3.org/2002/07/owl#onDataRange> _:genid21 .
 _:genid21 <http://www.w3.org/2002/07/owl#withRestrictions> _:genid24 .
 _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
@@ -267,75 +267,75 @@ _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 _:genid21 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#decimal> .
 _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 _:genid20 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> .
 _:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> <http://www.w3.org/2000/01/rdf-schema#comment> "Place of accomodation for tourists" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> <http://www.w3.org/2000/01/rdf-schema#comment> "Place of accomodation for tourists" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Italian
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Italian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Italian> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Italian> <http://www.w3.org/2000/01/rdf-schema#comment> "Restaurant serving italian food" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Italian> <http://www.w3.org/2000/01/rdf-schema#label> "Italian Restaurant" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Italian
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Italian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Italian> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Italian> <http://www.w3.org/2000/01/rdf-schema#comment> "Restaurant serving italian food" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Italian> <http://www.w3.org/2000/01/rdf-schema#label> "Italian Restaurant" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Japanese
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Japanese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Japanese> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Japanese> <http://www.w3.org/2000/01/rdf-schema#comment> "Restaurant serving japanese food" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Japanese> <http://www.w3.org/2000/01/rdf-schema#label> "Japanese Restaurant" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Japanese
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Japanese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Japanese> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Japanese> <http://www.w3.org/2000/01/rdf-schema#comment> "Restaurant serving japanese food" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Japanese> <http://www.w3.org/2000/01/rdf-schema#label> "Japanese Restaurant" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Luxury
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Luxury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Luxury> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Luxury> <http://www.w3.org/2000/01/rdf-schema#comment> "Accommodation offering premium services and amenities" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Luxury> <http://www.w3.org/2000/01/rdf-schema#label> "Luxury Hotel" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Luxury
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Luxury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Luxury> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Luxury> <http://www.w3.org/2000/01/rdf-schema#comment> "Accommodation offering premium services and amenities" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Luxury> <http://www.w3.org/2000/01/rdf-schema#label> "Luxury Hotel" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mediterranean
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mediterranean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mediterranean> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mediterranean> <http://www.w3.org/2000/01/rdf-schema#comment> "Restaurant serving mediterranean food" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mediterranean> <http://www.w3.org/2000/01/rdf-schema#label> "Mediterranean Restaurant" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mediterranean
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mediterranean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mediterranean> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mediterranean> <http://www.w3.org/2000/01/rdf-schema#comment> "Restaurant serving mediterranean food" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mediterranean> <http://www.w3.org/2000/01/rdf-schema#label> "Mediterranean Restaurant" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mexican
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mexican> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mexican> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mexican> <http://www.w3.org/2000/01/rdf-schema#comment> "Restaurant serving mexican food" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mexican> <http://www.w3.org/2000/01/rdf-schema#label> "Mexican Restaurant" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mexican
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mexican> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mexican> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mexican> <http://www.w3.org/2000/01/rdf-schema#comment> "Restaurant serving mexican food" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mexican> <http://www.w3.org/2000/01/rdf-schema#label> "Mexican Restaurant" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Monument
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Monument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Monument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Monument> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of attraction highlighting landmarks, historical events, etc." .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Monument> <http://www.w3.org/2000/01/rdf-schema#label> "Monument" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Monument
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Monument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Monument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Monument> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of attraction highlighting landmarks, historical events, etc." .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Monument> <http://www.w3.org/2000/01/rdf-schema#label> "Monument" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Museum
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Museum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Museum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Museum> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of attraction displaying collections of artifacts, historical items, etc." .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Museum> <http://www.w3.org/2000/01/rdf-schema#label> "Museum" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Museum
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Museum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Museum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Museum> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of attraction displaying collections of artifacts, historical items, etc." .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Museum> <http://www.w3.org/2000/01/rdf-schema#label> "Museum" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Music
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Music> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Music> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Music> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of event focusing on musical activities such as concerts of festivals" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Music> <http://www.w3.org/2000/01/rdf-schema#label> "Music Event" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Music
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Music> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Music> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Music> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of event focusing on musical activities such as concerts of festivals" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Music> <http://www.w3.org/2000/01/rdf-schema#label> "Music Event" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Park
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Park> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Park> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of attraction for outdoors recreation" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Park> <http://www.w3.org/2000/01/rdf-schema#label> "Park" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Park
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Park> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Park> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of attraction for outdoors recreation" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Park> <http://www.w3.org/2000/01/rdf-schema#label> "Park" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/PublicBycicle
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/PublicBycicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/PublicBycicle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/PublicBycicle> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of transport service using public bycicles" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/PublicBycicle> <http://www.w3.org/2000/01/rdf-schema#label> "Public Bycicle" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##PublicBycicle
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##PublicBycicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##PublicBycicle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##PublicBycicle> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of transport service using public bycicles" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##PublicBycicle> <http://www.w3.org/2000/01/rdf-schema#label> "Public Bycicle" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
 _:genid26 <http://www.w3.org/2002/07/owl#onDataRange> _:genid27 .
 _:genid27 <http://www.w3.org/2002/07/owl#withRestrictions> _:genid30 .
 _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
@@ -349,74 +349,74 @@ _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 _:genid27 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#decimal> .
 _:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 _:genid26 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> .
 _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> <http://www.w3.org/2000/01/rdf-schema#comment> "Dinning service facilities" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> <http://www.w3.org/2000/01/rdf-schema#label> "Restaurant" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> <http://www.w3.org/2000/01/rdf-schema#comment> "Dinning service facilities" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> <http://www.w3.org/2000/01/rdf-schema#label> "Restaurant" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Rural
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Rural> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Rural> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Rural> <http://www.w3.org/2000/01/rdf-schema#comment> "Accommodation located in a rural area for visitors that seek a tranquil environment" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Rural> <http://www.w3.org/2000/01/rdf-schema#label> "Rural Hotel" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Rural
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Rural> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Rural> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Rural> <http://www.w3.org/2000/01/rdf-schema#comment> "Accommodation located in a rural area for visitors that seek a tranquil environment" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Rural> <http://www.w3.org/2000/01/rdf-schema#label> "Rural Hotel" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Sports
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Sports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Sports> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Sports> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of event focusing on sports activities and competitions" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Sports> <http://www.w3.org/2000/01/rdf-schema#label> "Sports Event" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Sports
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Sports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Sports> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Sports> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of event focusing on sports activities and competitions" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Sports> <http://www.w3.org/2000/01/rdf-schema#label> "Sports Event" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Subway
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Subway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Subway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Subway> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of service transport using subway" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Subway> <http://www.w3.org/2000/01/rdf-schema#label> "Subway" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Subway
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Subway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Subway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Subway> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of service transport using subway" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Subway> <http://www.w3.org/2000/01/rdf-schema#label> "Subway" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Taxi
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Taxi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Taxi> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Taxi> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of service transport using taxi" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Taxi> <http://www.w3.org/2000/01/rdf-schema#label> "Taxi" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Taxi
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Taxi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Taxi> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Taxi> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of service transport using taxi" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Taxi> <http://www.w3.org/2000/01/rdf-schema#label> "Taxi" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Technology
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Technology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Technology> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of event focusing on technology related activities" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Technology> <http://www.w3.org/2000/01/rdf-schema#label> "Technology Event" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Technology
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Technology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Technology> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of event focusing on technology related activities" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Technology> <http://www.w3.org/2000/01/rdf-schema#label> "Technology Event" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid32 .
-_:genid32 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City> .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid32 .
+_:genid32 <http://www.w3.org/2002/07/owl#onClass> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City> .
 _:genid32 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> .
 _:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Any place, amenity or service with some touristic appealing" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem> <http://www.w3.org/2000/01/rdf-schema#label> "Tourism Item" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Any place, amenity or service with some touristic appealing" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem> <http://www.w3.org/2000/01/rdf-schema#label> "Tourism Item" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Touristic
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Touristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Touristic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Touristic> <http://www.w3.org/2000/01/rdf-schema#comment> "Accommodation for leisure travelers seeking comfort and convenience" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Touristic> <http://www.w3.org/2000/01/rdf-schema#label> "Touristic Hotel" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Touristic
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Touristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Touristic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Touristic> <http://www.w3.org/2000/01/rdf-schema#comment> "Accommodation for leisure travelers seeking comfort and convenience" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Touristic> <http://www.w3.org/2000/01/rdf-schema#label> "Touristic Hotel" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Tram
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Tram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Tram> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Tram> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of service transport using tram" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Tram> <http://www.w3.org/2000/01/rdf-schema#label> "Tram" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Tram
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Tram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Tram> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Tram> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of service transport using tram" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Tram> <http://www.w3.org/2000/01/rdf-schema#label> "Tram" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/TourismItem> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> <http://www.w3.org/2000/01/rdf-schema#comment> "Transportation options in a given place" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> <http://www.w3.org/2000/01/rdf-schema#label> "Transport" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##TourismItem> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> <http://www.w3.org/2000/01/rdf-schema#comment> "Transportation options in a given place" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> <http://www.w3.org/2000/01/rdf-schema#label> "Transport" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hotel_bargain
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hotel_bargain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hotel_bargain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hotel_bargain> <http://www.w3.org/2000/01/rdf-schema#comment> "Hotels with medium to low prices and very good reviews" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hotel_bargain> <http://www.w3.org/2000/01/rdf-schema#label> "Bargain Accommodation" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hotel_bargain
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hotel_bargain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hotel_bargain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hotel_bargain> <http://www.w3.org/2000/01/rdf-schema#comment> "Hotels with medium to low prices and very good reviews" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hotel_bargain> <http://www.w3.org/2000/01/rdf-schema#label> "Bargain Accommodation" .
 # 
 # 
 # 
@@ -427,86 +427,86 @@ _:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # #################################################################
 # 
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction_CastilloZaragoza_Park
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction_CastilloZaragoza_Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction_CastilloZaragoza_Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Park> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction_CastilloZaragoza_Park> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction_CastilloZaragoza_Park> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> "3.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction_CastilloZaragoza_Park> <http://www.w3.org/2000/01/rdf-schema#comment> "Park of the Castle of Zaragoza" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction_CastilloZaragoza_Park> <http://www.w3.org/2000/01/rdf-schema#label> "Zaragoza Castle Park" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction_CastilloZaragoza_Park
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction_CastilloZaragoza_Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction_CastilloZaragoza_Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Park> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction_CastilloZaragoza_Park> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction_CastilloZaragoza_Park> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> "3.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction_CastilloZaragoza_Park> <http://www.w3.org/2000/01/rdf-schema#comment> "Park of the Castle of Zaragoza" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction_CastilloZaragoza_Park> <http://www.w3.org/2000/01/rdf-schema#label> "Zaragoza Castle Park" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bilbao
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bilbao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bilbao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bilbao> <http://www.w3.org/2000/01/rdf-schema#comment> "Bilbao is a city of the north of Spain located in the País Vasco" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bilbao> <http://www.w3.org/2000/01/rdf-schema#label> "Bilbao" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bilbao> <http://www.w3.org/2002/07/owl#sameAs> "https://dbpedia.org/page/Bilbao" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bilbao
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bilbao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bilbao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bilbao> <http://www.w3.org/2000/01/rdf-schema#comment> "Bilbao is a city of the north of Spain located in the País Vasco" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bilbao> <http://www.w3.org/2000/01/rdf-schema#label> "Bilbao" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bilbao> <http://www.w3.org/2002/07/owl#sameAs> "https://dbpedia.org/page/Bilbao" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Madrid
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Madrid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Madrid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Madrid> <http://www.w3.org/2000/01/rdf-schema#comment> "City of Spain that it is also its capital" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Madrid> <http://www.w3.org/2000/01/rdf-schema#label> "Madrid" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Madrid> <http://www.w3.org/2002/07/owl#sameAs> "https://dbpedia.org/page/Madrid" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Madrid
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Madrid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Madrid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Madrid> <http://www.w3.org/2000/01/rdf-schema#comment> "City of Spain that it is also its capital" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Madrid> <http://www.w3.org/2000/01/rdf-schema#label> "Madrid" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Madrid> <http://www.w3.org/2002/07/owl#sameAs> "https://dbpedia.org/page/Madrid" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza> <http://www.w3.org/2000/01/rdf-schema#comment> "Zaragoza is a city on the north of Spain" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza> <http://www.w3.org/2000/01/rdf-schema#label> "Zaragoza" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza> <http://www.w3.org/2002/07/owl#sameAs> "https://dbpedia.org/page/Zaragoza" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza> <http://www.w3.org/2000/01/rdf-schema#comment> "Zaragoza is a city on the north of Spain" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza> <http://www.w3.org/2000/01/rdf-schema#label> "Zaragoza" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza> <http://www.w3.org/2002/07/owl#sameAs> "https://dbpedia.org/page/Zaragoza" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event_Zaragoza_Sports_Congress
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event_Zaragoza_Sports_Congress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event_Zaragoza_Sports_Congress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Sports> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event_Zaragoza_Sports_Congress> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event_Zaragoza_Sports_Congress> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/happensIn> "2024-07-19T00:00:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event_Zaragoza_Sports_Congress> <http://www.w3.org/2000/01/rdf-schema#comment> "Sports Congress happening in Zaragoza" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event_Zaragoza_Sports_Congress> <http://www.w3.org/2000/01/rdf-schema#label> "Zaragoza Sports Congress" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event_Zaragoza_Sports_Congress
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event_Zaragoza_Sports_Congress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event_Zaragoza_Sports_Congress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Sports> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event_Zaragoza_Sports_Congress> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event_Zaragoza_Sports_Congress> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##happensIn> "2024-07-19T00:00:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event_Zaragoza_Sports_Congress> <http://www.w3.org/2000/01/rdf-schema#comment> "Sports Congress happening in Zaragoza" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event_Zaragoza_Sports_Congress> <http://www.w3.org/2000/01/rdf-schema#label> "Zaragoza Sports Congress" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Palace_Zaragoza_Luxury
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Palace_Zaragoza_Luxury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Palace_Zaragoza_Luxury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Luxury> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Palace_Zaragoza_Luxury> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Palace_Zaragoza_Luxury> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice> "120.00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Palace_Zaragoza_Luxury> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> "3.8"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Palace_Zaragoza_Luxury> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Palace_Zaragoza_Luxury> <http://www.w3.org/2000/01/rdf-schema#comment> "Luxury hotel in the city of Zaragoza" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Palace_Zaragoza_Luxury> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel Palace Zaragoza Luxury" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Palace_Zaragoza_Luxury
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Palace_Zaragoza_Luxury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Palace_Zaragoza_Luxury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Luxury> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Palace_Zaragoza_Luxury> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Palace_Zaragoza_Luxury> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice> "120.00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Palace_Zaragoza_Luxury> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> "3.8"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Palace_Zaragoza_Luxury> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Palace_Zaragoza_Luxury> <http://www.w3.org/2000/01/rdf-schema#comment> "Luxury hotel in the city of Zaragoza" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Palace_Zaragoza_Luxury> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel Palace Zaragoza Luxury" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Sol_Bilbao_Business
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Sol_Bilbao_Business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Sol_Bilbao_Business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Business> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Sol_Bilbao_Business> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bilbao> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Sol_Bilbao_Business> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice> "56.00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Sol_Bilbao_Business> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> "4.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Sol_Bilbao_Business> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Sol_Bilbao_Business> <http://www.w3.org/2000/01/rdf-schema#comment> "Business hotel located in Bilbao" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel_Sol_Bilbao_Business> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel Sol Bilbao Business" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Sol_Bilbao_Business
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Sol_Bilbao_Business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Sol_Bilbao_Business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Business> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Sol_Bilbao_Business> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bilbao> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Sol_Bilbao_Business> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice> "56.00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Sol_Bilbao_Business> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> "4.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Sol_Bilbao_Business> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Sol_Bilbao_Business> <http://www.w3.org/2000/01/rdf-schema#comment> "Business hotel located in Bilbao" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel_Sol_Bilbao_Business> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel Sol Bilbao Business" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Pamplona
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Pamplona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Pamplona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Pamplona> <http://www.w3.org/2000/01/rdf-schema#comment> "City of Navarra, at the north of Spain" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Pamplona> <http://www.w3.org/2000/01/rdf-schema#label> "Pamplona" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Pamplona> <http://www.w3.org/2002/07/owl#sameAs> "https://dbpedia.org/page/Pamplona" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Pamplona
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Pamplona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Pamplona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Pamplona> <http://www.w3.org/2000/01/rdf-schema#comment> "City of Navarra, at the north of Spain" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Pamplona> <http://www.w3.org/2000/01/rdf-schema#label> "Pamplona" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Pamplona> <http://www.w3.org/2002/07/owl#sameAs> "https://dbpedia.org/page/Pamplona" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant_DeliciaZaragoza_Japanese
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant_DeliciaZaragoza_Japanese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant_DeliciaZaragoza_Japanese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Japanese> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant_DeliciaZaragoza_Japanese> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant_DeliciaZaragoza_Japanese> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice> "77.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant_DeliciaZaragoza_Japanese> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> "4.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant_DeliciaZaragoza_Japanese> <http://www.w3.org/2000/01/rdf-schema#comment> "Japanese restaurant located in the city of Zaragoza" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant_DeliciaZaragoza_Japanese> <http://www.w3.org/2000/01/rdf-schema#label> "Delicia Zaragoza Japanese" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant_DeliciaZaragoza_Japanese
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant_DeliciaZaragoza_Japanese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant_DeliciaZaragoza_Japanese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Japanese> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant_DeliciaZaragoza_Japanese> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant_DeliciaZaragoza_Japanese> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice> "77.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant_DeliciaZaragoza_Japanese> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> "4.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant_DeliciaZaragoza_Japanese> <http://www.w3.org/2000/01/rdf-schema#comment> "Japanese restaurant located in the city of Zaragoza" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant_DeliciaZaragoza_Japanese> <http://www.w3.org/2000/01/rdf-schema#label> "Delicia Zaragoza Japanese" .
 # 
-# http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport_Bus_Zaragoza_UrbanZaragoza
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport_Bus_Zaragoza_UrbanZaragoza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport_Bus_Zaragoza_UrbanZaragoza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bus> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport_Bus_Zaragoza_UrbanZaragoza> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City_Zaragoza> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport_Bus_Zaragoza_UrbanZaragoza> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice> "8.00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport_Bus_Zaragoza_UrbanZaragoza> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/runBy> "Urban Zaragoza" .
-<http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport_Bus_Zaragoza_UrbanZaragoza> <http://www.w3.org/2000/01/rdf-schema#label> "Urban Zaragoza Bus" .
+# https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport_Bus_Zaragoza_UrbanZaragoza
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport_Bus_Zaragoza_UrbanZaragoza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport_Bus_Zaragoza_UrbanZaragoza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bus> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport_Bus_Zaragoza_UrbanZaragoza> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City_Zaragoza> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport_Bus_Zaragoza_UrbanZaragoza> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice> "8.00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport_Bus_Zaragoza_UrbanZaragoza> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##runBy> "Urban Zaragoza" .
+<https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport_Bus_Zaragoza_UrbanZaragoza> <http://www.w3.org/2000/01/rdf-schema#label> "Urban Zaragoza Bus" .
 # 
 # 
 # 
@@ -524,15 +524,15 @@ _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
 _:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
 _:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
 _:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mexican> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mexican> .
 _:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Mediterranean> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Mediterranean> .
 _:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Japanese> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Japanese> .
 _:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Italian> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Italian> .
 _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Andalusian> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Andalusian> .
 _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -543,17 +543,17 @@ _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
 _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid41 .
 _:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid40 .
 _:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Transport> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Transport> .
 _:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> .
 _:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> .
 _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> .
 _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/City> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##City> .
 _:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> .
 _:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -563,15 +563,15 @@ _:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid49 .
 _:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
 _:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
 _:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Touristic> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Touristic> .
 _:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Rural> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Rural> .
 _:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Luxury> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Luxury> .
 _:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Business> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Business> .
 _:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Beach> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Beach> .
 _:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -581,15 +581,15 @@ _:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid55 .
 _:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid54 .
 _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid53 .
 _:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Park> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Park> .
 _:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Museum> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Museum> .
 _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Monument> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Monument> .
 _:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/CulturalAttraction> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##CulturalAttraction> .
 _:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Beach> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Beach> .
 _:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -599,15 +599,15 @@ _:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid61 .
 _:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid60 .
 _:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
 _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Tram> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Tram> .
 _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Taxi> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Taxi> .
 _:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Subway> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Subway> .
 _:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/PublicBycicle> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##PublicBycicle> .
 _:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Bus> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Bus> .
 _:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -617,15 +617,15 @@ _:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid67 .
 _:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid66 .
 _:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid65 .
 _:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Technology> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Technology> .
 _:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Sports> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Sports> .
 _:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Music> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Music> .
 _:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Gastronomy> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Gastronomy> .
 _:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Cultural> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Cultural> .
 _:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 # 
@@ -637,10 +637,10 @@ _:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # #################################################################
 # 
 # 
-<urn:swrl:var#r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
 <urn:swrl:var#e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
-<urn:swrl:var#rt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
 <urn:swrl:var#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#rt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
 <urn:swrl:var#h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
 <urn:swrl:var#p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
 <urn:swrl:var#s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
@@ -651,15 +651,15 @@ _:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid113 .
 _:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid111 .
 _:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid112 .
-_:genid112 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#r> .
 _:genid112 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
-_:genid112 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> .
-_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid112 <http://www.w3.org/2003/11/swrl#classPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Attraction> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
 _:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
 _:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid114 .
+_:genid114 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#r> .
 _:genid114 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
-_:genid114 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Attraction> .
-_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid114 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
 _:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
 _:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid116 .
 _:genid116 <http://www.w3.org/2003/11/swrl#arguments> _:genid118 .
@@ -677,54 +677,54 @@ _:genid110 <http://www.w3.org/2003/11/swrl#head> _:genid119 .
 _:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid120 .
 _:genid120 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
-_:genid120 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/HighlyRatedAttraction> .
+_:genid120 <http://www.w3.org/2003/11/swrl#classPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##HighlyRatedAttraction> .
 _:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
 _:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
 _:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
 _:genid70 <http://www.w3.org/2003/11/swrl#body> _:genid83 .
 _:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid81 .
-_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid77 .
-_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid75 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid75 .
 _:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid73 .
 _:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid71 .
 _:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid72 .
-_:genid72 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#c> .
+_:genid72 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#rt> .
 _:genid72 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
-_:genid72 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> .
-_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid72 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
 _:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
 _:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid74 .
 _:genid74 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#c> .
 _:genid74 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
-_:genid74 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/locatedIn> .
+_:genid74 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> .
 _:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
 _:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
 _:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid76 .
-_:genid76 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#rt> .
-_:genid76 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
-_:genid76 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> .
-_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid76 <http://www.w3.org/2003/11/swrl#arguments> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#rt> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid76 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
 _:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid78 .
-_:genid78 <http://www.w3.org/2003/11/swrl#arguments> _:genid80 .
-_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid79 .
-_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#rt> .
-_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid78 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
-_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
-_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid80 .
+_:genid80 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid80 <http://www.w3.org/2003/11/swrl#classPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Restaurant> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
 _:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid82 .
-_:genid82 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
-_:genid82 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Event> .
-_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid82 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#c> .
+_:genid82 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid82 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##locatedIn> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
 _:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
 _:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid84 .
-_:genid84 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
-_:genid84 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Restaurant> .
+_:genid84 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
+_:genid84 <http://www.w3.org/2003/11/swrl#classPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Event> .
 _:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
 _:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
 _:genid70 <http://www.w3.org/2003/11/swrl#head> _:genid85 .
@@ -732,7 +732,7 @@ _:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 _:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid86 .
 _:genid86 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#r> .
 _:genid86 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#e> .
-_:genid86 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/recommendedRestaurantForEvent> .
+_:genid86 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##recommendedRestaurantForEvent> .
 _:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
 _:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
 _:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
@@ -758,7 +758,7 @@ _:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid93 .
 _:genid93 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
 _:genid93 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> .
-_:genid93 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasStars> .
+_:genid93 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasStars> .
 _:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
 _:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
 _:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid95 .
@@ -787,26 +787,26 @@ _:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
 _:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid103 .
 _:genid103 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> .
-_:genid103 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/Hotel> .
+_:genid103 <http://www.w3.org/2003/11/swrl#classPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##Hotel> .
 _:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
 _:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
 _:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid105 .
 _:genid105 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#p> .
 _:genid105 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> .
-_:genid105 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasPrice> .
+_:genid105 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasPrice> .
 _:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
 _:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
 _:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid107 .
 _:genid107 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#r> .
 _:genid107 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> .
-_:genid107 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hasRating> .
+_:genid107 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hasRating> .
 _:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
 _:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
 _:genid87 <http://www.w3.org/2003/11/swrl#head> _:genid108 .
 _:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid109 .
 _:genid109 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> .
-_:genid109 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo_uoc/ontologies/2025/3/intelligent_tourism_ontology/hotel_bargain> .
+_:genid109 <http://www.w3.org/2003/11/swrl#classPredicate> <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##hotel_bargain> .
 _:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
 _:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
