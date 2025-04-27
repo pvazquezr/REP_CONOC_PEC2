@@ -7,19 +7,15 @@
 @base <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl#> .
 
 <https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl#> rdf:type owl:Ontology ;
-                                                                                              <http://purl.org/dc/elements/1.1/created> "\"2025-04-27\"^^xsd:date" ;
                                                                                               <http://purl.org/dc/elements/1.1/creator> "Pablo Vázquez Rodríguez" ;
                                                                                               <http://purl.org/dc/elements/1.1/description> "In this ontology we model the domain of intelligent tourism, gathering information from different sources like events, hotels, attractions and restaurants in main touristic cities. The main goal is to provide recommendation systems that provide travelers useful informacion from a semantic structure able to combine geo data along user review values, events or activities." ;
-                                                                                              <http://purl.org/dc/elements/1.1/license> "https://creativecommons.org/licenses/by/4.0/" ;
-                                                                                              <http://purl.org/dc/elements/1.1/title> "Recommendations and intelligent tourism ontology" .
+                                                                                              <http://purl.org/dc/elements/1.1/title> "Recommendations and intelligent tourism ontology" ;
+                                                                                              <http://purl.org/dc/terms/created> "\"2025-04-27\"^^xsd:date" ;
+                                                                                              <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" .
 
 #################################################################
 #    Annotation properties
 #################################################################
-
-###  http://purl.org/dc/elements/1.1/created
-<http://purl.org/dc/elements/1.1/created> rdf:type owl:AnnotationProperty .
-
 
 ###  http://purl.org/dc/elements/1.1/creator
 <http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
@@ -29,12 +25,16 @@
 <http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/elements/1.1/license
-<http://purl.org/dc/elements/1.1/license> rdf:type owl:AnnotationProperty .
-
-
 ###  http://purl.org/dc/elements/1.1/title
 <http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2002/07/owl#sameAs

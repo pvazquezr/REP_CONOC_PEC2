@@ -9,13 +9,14 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:ontology="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl##">
     <owl:Ontology rdf:about="https://pvazquezr.github.io/REP_CONOC_PEC2/docs/intelligent_tourism_ontology/ontology.owl#">
-        <dc:created>&quot;2025-04-27&quot;^^xsd:date</dc:created>
         <dc:creator>Pablo Vázquez Rodríguez</dc:creator>
         <dc:description>In this ontology we model the domain of intelligent tourism, gathering information from different sources like events, hotels, attractions and restaurants in main touristic cities. The main goal is to provide recommendation systems that provide travelers useful informacion from a semantic structure able to combine geo data along user review values, events or activities.</dc:description>
-        <dc:license>https://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:title>Recommendations and intelligent tourism ontology</dc:title>
+        <terms:created>&quot;2025-04-27&quot;^^xsd:date</terms:created>
+        <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
     </owl:Ontology>
     
 
@@ -29,13 +30,6 @@
      -->
 
 
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/created -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/created"/>
     
 
 
@@ -53,17 +47,24 @@
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/license -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
-    
-
-
     <!-- http://purl.org/dc/elements/1.1/title -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
